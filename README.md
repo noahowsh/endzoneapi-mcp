@@ -19,7 +19,7 @@ This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to i
 **Claude Code**
 
 ```bash
-claude mcp add --transport http endzoneapi "https://football-mcp-production.up.railway.app/mcp?key=YOUR_API_KEY"
+claude mcp add --transport http endzoneapi "https://mcp.endzoneapi.com/mcp?key=YOUR_API_KEY"
 ```
 
 **Claude Desktop, Cursor and other clients**
@@ -28,7 +28,7 @@ claude mcp add --transport http endzoneapi "https://football-mcp-production.up.r
 {
   "mcpServers": {
     "endzoneapi": {
-      "url": "https://football-mcp-production.up.railway.app/mcp?key=YOUR_API_KEY"
+      "url": "https://mcp.endzoneapi.com/mcp?key=YOUR_API_KEY"
     }
   }
 }
@@ -39,7 +39,7 @@ The key can also be sent as an `x-api-key` header or `Authorization: Bearer`. Co
 **REST**
 
 ```bash
-curl -X POST https://football-mcp-production.up.railway.app/v1/list_teams -H "x-api-key: YOUR_API_KEY"
+curl -X POST https://mcp.endzoneapi.com/v1/list_teams -H "x-api-key: YOUR_API_KEY"
 ```
 
 Every tool is `POST /v1/{tool}` with a JSON body.
