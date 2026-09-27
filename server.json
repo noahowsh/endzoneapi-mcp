@@ -3,8 +3,21 @@
   "name": "io.github.noahowsh/endzoneapi",
   "title": "EndzoneAPI",
   "description": "Pro football play-by-play, stats, injuries, and odds. REST API and MCP server. Free to start.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/noahowsh/endzoneapi-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://github.com/noahowsh/endzoneapi-mcp/raw/main/assets/logo-400x400.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
   "homepage": "https://endzoneapi.com",
   "remotes": [
     {
@@ -106,9 +119,5 @@
       "description": "Time-series odds grouped by bookmaker",
       "readOnlyHint": true
     }
-  ],
-  "repository": {
-    "url": "https://github.com/noahowsh/endzoneapi-mcp",
-    "source": "github"
-  }
+  ]
 }
