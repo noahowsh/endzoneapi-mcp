@@ -1,0 +1,114 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.noahowsh/endzoneapi",
+  "title": "EndzoneAPI",
+  "description": "Pro football play-by-play, stats, injuries, and odds. REST API and MCP server. Free to start.",
+  "version": "1.1.0",
+  "license": "MIT",
+  "homepage": "https://endzoneapi.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://football-mcp-production.up.railway.app/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your EndzoneAPI API key. Get a free key with 500 credits at endzoneapi.com/signup",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "list_teams",
+      "description": "All 32 teams with conference, division, colours, and logos",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_standings",
+      "description": "Standings and playoff seeding by the NFL tiebreaking procedure, with the step that decided each rank",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_schedule",
+      "description": "Upcoming games by week or for the next N days",
+      "readOnlyHint": true
+    },
+    {
+      "name": "search_players",
+      "description": "Find players by name, team, or position",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_injuries",
+      "description": "Injury report by team and week with practice and game status",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_depth_chart",
+      "description": "Team depth chart by week",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_games",
+      "description": "Query games by season, week, team, date, type, or status, with closing lines",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_team_stats",
+      "description": "Team totals and per-week lines with EPA, success rate, and situational splits",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_stats",
+      "description": "Weekly and season stat lines for one player: passing, rushing, receiving, defense, kicking, fantasy",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_player_leaders",
+      "description": "Leaderboard for any stat, filtered by position, team, and season",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_snap_counts",
+      "description": "Offensive, defensive, and special-teams snaps and shares by game or player",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_advanced_stats",
+      "description": "Next Gen Stats tracking metrics and Pro Football Reference advanced stats",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_plays",
+      "description": "Play-by-play with EPA, win probability, situation filters, and optional FTN charting",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_odds",
+      "description": "Odds by game with bookmaker filters",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_game_detail",
+      "description": "Full game detail with team stats, starting QBs, odds, weather, and officials",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_head_to_head",
+      "description": "Matchup history with win/loss records and margins",
+      "readOnlyHint": true
+    },
+    {
+      "name": "get_line_movement",
+      "description": "Time-series odds grouped by bookmaker",
+      "readOnlyHint": true
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/noahowsh/endzoneapi-mcp",
+    "source": "github"
+  }
+}
