@@ -1,5 +1,7 @@
 # EndzoneAPI MCP server
 
+[![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/EndzoneAPI)
+
 **The football data API.** Play-by-play with EPA and win probability, player and team stats, schedules, injuries, depth charts and closing lines for every NFL game since 1999. REST API and MCP server. 500 free credits, no card.
 
 Website: https://endzoneapi.com · Docs: https://endzoneapi.com/docs · Get a key: https://endzoneapi.com/signup
