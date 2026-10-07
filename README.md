@@ -44,7 +44,7 @@ curl -X POST https://mcp.endzoneapi.com/v1/list_teams -H "x-api-key: YOUR_API_KE
 
 Every tool is `POST /v1/{tool}` with a JSON body.
 
-## Tools (17)
+## Tools (18)
 
 | Tool | What it returns |
 |------|-----------------|
@@ -65,14 +65,16 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 | `get_game_detail` | Full game detail with team stats, starting QBs, odds, weather, and officials |
 | `get_head_to_head` | Matchup history with win/loss records and margins |
 | `get_line_movement` | Time-series odds grouped by bookmaker |
+| `get_player_props` | Player prop lines by sportsbook, opening and closing: passing, rushing and receiving yards, TDs, receptions, anytime TD |
 
 ## Data
 
 - Play-by-play for every game since 1999 with EPA, win probability and the nflfastR model columns
-- Closing spread, total and moneyline for every game since 1999; per-book odds and hourly line movement from September 2026
+- Closing spread, total and moneyline for every game since 1999; per-book odds from 2020 (up to 8 books, hourly in season from 2026)
+- Player prop lines from 2023, captured live before every game
 - Weekly player and team stats, injuries (2009+), depth charts (2001+), snap counts (2012+), Next Gen Stats, FTN charting (2022+)
 
-Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds and https://endzoneapi.com/data/play-by-play
+Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds, https://endzoneapi.com/data/player-props and https://endzoneapi.com/data/play-by-play
 
 ## Pricing
 

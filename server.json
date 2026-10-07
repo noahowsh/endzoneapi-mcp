@@ -118,6 +118,11 @@
       "name": "get_line_movement",
       "description": "Time-series odds grouped by bookmaker",
       "readOnlyHint": true
+    },
+    {
+      "name": "get_player_props",
+      "description": "Player prop lines by sportsbook, opening and closing",
+      "readOnlyHint": true
     }
   ]
 }
