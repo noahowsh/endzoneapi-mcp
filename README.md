@@ -22,6 +22,15 @@ Claude: [calls get_plays with third_down filter -> EPA already attached]
 git clone https://github.com/noahowsh/endzoneapi-mcp.git
 ```
 
+Or install them as a Claude Code plugin:
+
+```
+/plugin marketplace add noahowsh/endzoneapi-mcp
+/plugin install endzoneapi-skills@endzoneapi
+```
+
+Or with the skills CLI: `npx skills add noahowsh/endzoneapi-mcp`.
+
 Point Claude (Claude Code, or any client that loads skills) at the `skills/` folder, and connect the MCP server above so the skills can call live data. The `dispatch` skill routes a request to the right two or three skills. Full list: [skills/README.md](skills/README.md)
 
 ```

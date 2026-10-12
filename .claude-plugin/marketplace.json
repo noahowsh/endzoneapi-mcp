@@ -1,0 +1,14 @@
+{
+  "name": "endzoneapi",
+  "description": "Football analytics skills for Claude Code, wired to the EndzoneAPI MCP server",
+  "owner": {
+    "name": "EndzoneAPI"
+  },
+  "plugins": [
+    {
+      "name": "endzoneapi-skills",
+      "source": "./",
+      "description": "16 football analytics and betting-model skills"
+    }
+  ]
+}
