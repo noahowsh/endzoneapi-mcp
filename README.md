@@ -14,6 +14,33 @@ You:    "Which offenses had the best EPA per play on third down in 2025?"
 Claude: [calls get_plays with third_down filter -> EPA already attached]
 ```
 
+## Skills
+
+16 free Claude skills turn Claude into a football analyst wired to these tools: EPA per play and success rate, Next Gen Stats, weekly player stats, odds and devigging, prop modeling, college football and FCS, and honest backtesting. They are plain markdown folders.
+
+```bash
+git clone https://github.com/noahowsh/endzoneapi-mcp.git
+```
+
+Point Claude (Claude Code, or any client that loads skills) at the `skills/` folder, and connect the MCP server above so the skills can call live data. The `dispatch` skill routes a request to the right two or three skills. Full list: [skills/README.md](skills/README.md)
+
+```
+You:    "Which offenses were best on third down in 2025, and how many plays is that based on?"
+Claude: [loads epa-analysis + endzoneapi-tool, calls get_plays with third_down and a limit that
+         holds the split, reports EPA per play, success rate and the play count]
+```
+
+## Useful pages
+
+- Odds this week: https://endzoneapi.com/odds
+- Guides: https://endzoneapi.com/guides
+- Docs: https://endzoneapi.com/docs
+- Pricing: https://endzoneapi.com/pricing
+- Data coverage: https://endzoneapi.com/data
+- College football (FBS): https://endzoneapi.com/college-football
+- FCS football: https://endzoneapi.com/fcs-football
+- Compare: [ESPN API alternative](https://endzoneapi.com/compare/espn-api-alternative), [nflfastR API](https://endzoneapi.com/compare/nflfastr-api), [SportsDataIO alternative](https://endzoneapi.com/compare/sportsdataio-alternative)
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
@@ -68,6 +95,8 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 | `get_head_to_head` | Matchup history with win/loss records and margins |
 | `get_line_movement` | Time-series odds grouped by bookmaker |
 | `get_player_props` | Player prop lines by sportsbook, opening and closing: passing, rushing and receiving yards, TDs, receptions, anytime TD |
+| `get_prop_history` | One player against his prop line over time for one market, with hit rate |
+| `get_alt_lines` | Alternate spreads and totals by sportsbook, every point on each ladder with its price |
 
 ## Data
 
