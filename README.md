@@ -2,7 +2,7 @@
 
 [![Smithery](https://img.shields.io/badge/Smithery-listed-ff5601?style=flat-square)](https://smithery.ai/servers/noahowsh/EndzoneAPI)
 
-**The football data API.** Play-by-play with EPA and win probability, player and team stats, schedules, injuries, depth charts and closing lines for every NFL game since 1999. REST API and MCP server. 500 free credits, no card.
+**The football data API.** Play-by-play with EPA and win probability, player and team stats, schedules, injuries, depth charts and closing lines for every NFL game since 1999. REST API and MCP server. 500 free credits every month, no card.
 
 Website: https://endzoneapi.com · Docs: https://endzoneapi.com/docs · Get a key: https://endzoneapi.com/signup
 
@@ -109,7 +109,7 @@ Coverage by season, read live from the database: https://endzoneapi.com/data/his
 
 ## Pricing
 
-500 free credits on signup, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://endzoneapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://endzoneapi.com/pricing
 
 ## Attribution
 
