@@ -42,6 +42,8 @@ Claude: [loads epa-analysis + endzoneapi-tool, calls get_plays with third_down a
 ## Useful pages
 
 - Odds this week: https://endzoneapi.com/odds
+- Player props this week (best price per player across books): https://endzoneapi.com/props
+- Props guides: [receiving yards history](https://endzoneapi.com/guides/nfl-receiving-yards-prop-history-python), [anytime touchdown history](https://endzoneapi.com/guides/nfl-anytime-touchdown-prop-history-python), [passing yards history](https://endzoneapi.com/guides/nfl-passing-yards-prop-history-python)
 - Guides: https://endzoneapi.com/guides
 - Docs: https://endzoneapi.com/docs
 - Pricing: https://endzoneapi.com/pricing
