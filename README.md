@@ -129,3 +129,28 @@ Stats, schedules and play-by-play are from [nflverse](https://github.com/nflvers
 ## License
 
 MIT for the contents of this repository. Data terms as above.
+
+## Use with Codex
+
+Add this repo as a Codex plugin marketplace, then install the plugin:
+
+```bash
+codex plugin marketplace add noahowsh/endzoneapi-mcp
+```
+
+Then open the plugin directory in Codex and install `endzoneapi-skills` from the `endzoneapi` marketplace. The plugin bundles the skills in `skills/` and the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp). Set your key first (free at https://endzoneapi.com/signup):
+
+```bash
+export ENDZONEAPI_API_KEY=your_key
+```
+
+Codex sends it as a bearer token.
+
+## Use with Gemini CLI
+
+```bash
+export ENDZONEAPI_API_KEY=your_key
+gemini extensions install https://github.com/noahowsh/endzoneapi-mcp
+```
+
+The extension adds the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://endzoneapi.com/signup.

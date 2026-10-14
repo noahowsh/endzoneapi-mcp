@@ -1,0 +1,37 @@
+{
+  "name": "endzoneapi-skills",
+  "version": "1.0.0",
+  "description": "16 Claude skills for football analytics and betting models with EndzoneAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+  "author": {
+    "name": "EndzoneAPI",
+    "url": "https://endzoneapi.com"
+  },
+  "homepage": "https://endzoneapi.com/skills",
+  "repository": "https://github.com/noahowsh/endzoneapi-mcp",
+  "license": "MIT",
+  "keywords": [
+    "football",
+    "nfl",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "endzoneapi"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "EndzoneAPI Skills",
+    "shortDescription": "NFL football data and betting-model skills",
+    "longDescription": "Skills and a remote MCP server for NFL football analytics with EndzoneAPI: data lookups, metrics, feature engineering, walk-forward validation, devigging, edge detection and backtests.",
+    "developerName": "EndzoneAPI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://endzoneapi.com",
+    "privacyPolicyURL": "https://endzoneapi.com/privacy",
+    "termsOfServiceURL": "https://endzoneapi.com/terms"
+  }
+}
