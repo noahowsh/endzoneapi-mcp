@@ -5,7 +5,22 @@
   "author": {
     "name": "EndzoneAPI"
   },
-  "homepage": "https://endzoneapi.com",
+  "homepage": "https://endzoneapi.com/skills",
   "repository": "https://github.com/noahowsh/endzoneapi-mcp",
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "EndzoneAPI Skills",
+  "documentationUrl": "https://endzoneapi.com/docs",
+  "privacyPolicyUrl": "https://endzoneapi.com/privacy",
+  "termsOfServiceUrl": "https://endzoneapi.com/terms",
+  "supportUrl": "mailto:support@endzoneapi.com",
+  "keywords": [
+    "football",
+    "nfl",
+    "sports-analytics",
+    "sports-betting",
+    "sports-data",
+    "odds",
+    "backtesting",
+    "endzoneapi"
+  ]
 }
