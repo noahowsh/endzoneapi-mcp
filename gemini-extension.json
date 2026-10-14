@@ -1,0 +1,14 @@
+{
+  "name": "endzoneapi",
+  "version": "1.0.0",
+  "description": "EndzoneAPI MCP server for NFL football data: schedules, results, stats and odds.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "endzoneapi": {
+      "httpUrl": "https://mcp.endzoneapi.com/mcp",
+      "headers": {
+        "x-api-key": "${ENDZONEAPI_API_KEY}"
+      }
+    }
+  }
+}
