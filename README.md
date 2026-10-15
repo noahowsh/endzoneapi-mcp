@@ -52,6 +52,33 @@ Claude: [loads epa-analysis + endzoneapi-tool, calls get_plays with third_down a
 - FCS football: https://endzoneapi.com/fcs-football
 - Compare: [ESPN API alternative](https://endzoneapi.com/compare/espn-api-alternative), [nflfastR API](https://endzoneapi.com/compare/nflfastr-api), [SportsDataIO alternative](https://endzoneapi.com/compare/sportsdataio-alternative)
 
+## Python
+
+The official Python client is on PyPI: [endzoneapi](https://pypi.org/project/endzoneapi/).
+
+```bash
+pip install endzoneapi
+export ENDZONEAPI_API_KEY=sk_live_...
+```
+
+```python
+from endzoneapi import Client, to_dataframe
+
+client = Client()
+
+print(client.get_player_props(game_id="2025_01_KC_LAC", estimate_only=True))
+
+props = client.get_player_props(
+    game_id="2025_01_KC_LAC",
+    market="player_pass_yds",
+    bookmaker="draftkings",
+)
+df = to_dataframe(props, key="props")
+print(df[["player_name", "line", "over_odds", "under_odds"]])
+```
+
+Typed errors for a bad key, no credits left, not found and rate limits, automatic retries, and `to_dataframe` for pandas.
+
 ## Quick start
 
 This is a hosted (remote) MCP server over Streamable HTTP. There is nothing to install.
