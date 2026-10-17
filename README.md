@@ -145,13 +145,17 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 
 Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds, https://endzoneapi.com/data/player-props and https://endzoneapi.com/data/play-by-play
 
+## Used by
+
+[NoPunt](https://www.nopunt.com/), our NFL predictions site, runs on this API.
+
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://endzoneapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, kept while your account is open. https://endzoneapi.com/pricing
 
 ## Attribution
 
-Stats, schedules and play-by-play are from [nflverse](https://github.com/nflverse) (CC-BY 4.0; FTN charting CC-BY-SA 4.0). Not affiliated with the NFL or any team.
+Stats, schedules and play-by-play are from [nflverse](https://github.com/nflverse) (CC BY 4.0), modified and combined with our own models. Not affiliated with the NFL or any team.
 
 ## License
 
