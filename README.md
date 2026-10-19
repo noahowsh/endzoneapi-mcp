@@ -149,6 +149,8 @@ Coverage by season, read live from the database: https://endzoneapi.com/data/his
 
 [NoPunt](https://www.nopunt.com/), our NFL predictions site, runs on this API.
 
+- [nfl-props-backtest](https://github.com/sports-data-hq/nfl-props-backtest): a season of NFL player props against what happened (calibration, over rates, line moves, anytime TD prices), in Python and R.
+
 ## Pricing
 
 500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, kept while your account is open. https://endzoneapi.com/pricing
