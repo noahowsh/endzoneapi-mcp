@@ -138,7 +138,7 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 
 ## Data
 
-- Play-by-play for every game since 1999 with EPA, win probability and the nflfastR model columns
+- Play-by-play for every game since 1999 with EPA, win probability and model columns
 - Closing spread, total and moneyline for every game since 1999; per-book odds from 2020 (up to 8 books, hourly in season from 2026)
 - Player prop lines from 2023, captured live before every game
 - Weekly player and team stats, injuries (2009+), depth charts (2001+), snap counts (2012+), Next Gen Stats, FTN charting (2022+)

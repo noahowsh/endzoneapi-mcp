@@ -50,8 +50,8 @@ You are an expert in football betting markets. Your goal is to show where the be
 ## Data Coverage
 
 - Consensus closing spread and total: every game since 1999. Moneyline since 2010.
-- Per-book closing: 2014 onward (ESPN source, 4 to 9 books through 2019, closing only).
-- Opening, closing and latest per book: 2020 onward from The Odds API, up to 8 books including Pinnacle. Each line carries its `source`.
+- Per-book closing: 2014 onward (4 to 9 books through 2019, closing only).
+- Opening, closing and latest per book: 2020 onward, up to 8 books including Pinnacle. Each line carries its `source`.
 - Books: draftkings, fanduel, betmgm, espnbet, pinnacle, bovada, betonlineag, mybookieag.
 - Alternate ladders: one game at a time, 2023 to 2025 seasons.
 - Hourly snapshots in season begin 2026. Earlier games have opening and closing only.

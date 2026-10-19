@@ -81,12 +81,12 @@ Every REST response is wrapped: `{"data": {...}}`. Read the payload from `data`.
 
 | Data | From | Notes |
 |------|------|-------|
-| Play-by-play, EPA, win probability | 1999 | nflfastR model columns |
+| Play-by-play, EPA, win probability | 1999 | EPA and win probability model columns |
 | FTN charting filters in `get_plays` | 2022 | play action, motion, RPO, screens, drops, blitzers |
 | Next Gen Stats | 2016 | `week` 0 is the season aggregate |
 | PFR advanced | 2018 | one row per player per game |
 | Consensus closing spread and total | 1999 | moneyline from 2010 |
-| Per-book closing lines | 2014 | 2014-2019 closing only (ESPN), up to 8 books |
+| Per-book closing lines | 2014 | 2014-2019 closing lines only, up to 8 books |
 | Opening, closing, latest by book | 2020 | includes Pinnacle |
 | Player props | 2023 | 7 books, six markets in `get_player_props` |
 | Alternate lines | 2023 to 2025 | 6 books |

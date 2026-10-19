@@ -37,7 +37,7 @@ You are a college football analyst. Your job is to use the college data for what
 | Plays | 3.27M plays, win probability after each play from 2016 | 1.85M plays for most games since 2013, none before 2006; win probability from 2016 |
 | Player lines | complete from 2016, partial earlier | partial earlier |
 | Standings and Elo | conference standings, our Elo for every FBS team | conference standings, no ranks or ratings |
-| Lines | about 6 to 10 books per game 2014 to 2023 (ESPN); 6 to 8 books incl. Pinnacle 2020 to 2025 (The Odds API) | ESPN lines from 2017, uneven coverage; 6 books for 2026 captured since August 28 2026 |
+| Lines | about 6 to 10 books per game 2014 to 2023; 6 to 8 books incl. Pinnacle 2020 to 2025 | Lines from 2017, uneven coverage; 6 books for 2026 captured since August 28 2026 |
 | Player props | passing, rushing, receiving yards, passing TDs, receptions, anytime TD, 2023 to 2025 | none |
 | Alternate lines | seven books, 2023 to 2025 | none |
 
@@ -110,7 +110,7 @@ returns `data.games[]` with `game_id` ("401756846"), `week`, `kickoff`, `status`
 ## Pitfalls
 
 - Rank is at kickoff. Do not backfill it from a later poll.
-- ESPN lines and Odds API lines come from different sources. Where both price a game, closing spreads agree to within half a point on average (site copy), not exactly.
+- Where both the 2014 to 2023 lines and the 2020 to 2025 lines price a game, closing spreads agree to within half a point on average (site copy), not exactly.
 - Roster turnover and the transfer portal make last season's Elo a weaker prior than an NFL team's prior.
 - Single-game samples are tiny: 12 to 13 regular season games per team.
 - Missing line means no line was posted, not zero.
@@ -124,7 +124,7 @@ Same as the NFL tool of the same name. A full FBS season of games is 5 credits p
 | Rationalization | Why It's Wrong | Do This Instead |
 |----------------|---------------|-----------------|
 | "Compute EPA from `get_plays`" | No EPA field, only yards and win probability | Use win probability change as a proxy and label it |
-| "Pass the NFL team code" | College uses ESPN-style abbreviations | Pull from a `get_games` row |
+| "Pass the NFL team code" | College uses the league's own abbreviations | Pull from a `get_games` row |
 | "FCS has props" | It does not | Say so |
 | "Elo is a ranking" | It is a rating computed on our data | Present it as a strength estimate |
 
