@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "endzoneapi-skills",
-      "source": "./",
+      "source": "./plugin",
       "description": "16 football analytics and betting-model skills"
     }
   ]
