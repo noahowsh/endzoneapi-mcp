@@ -111,7 +111,15 @@ curl -X POST https://mcp.endzoneapi.com/v1/list_teams -H "x-api-key: YOUR_API_KE
 
 Every tool is `POST /v1/{tool}` with a JSON body.
 
-## Tools (18)
+## Use it in
+
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.endzoneapi.com/mcp` as a remote MCP server. Step-by-step for each: https://endzoneapi.com/mcp
+- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/endzoneapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Google Sheets:** `=SDHQ("endzoneapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets
+- **REST:** `POST https://mcp.endzoneapi.com/v1/<tool>` with an `x-api-key` header: https://endzoneapi.com/docs
+
+## Tools (26)
 
 | Tool | What it returns |
 |------|-----------------|
@@ -127,14 +135,20 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 | `get_player_leaders` | Leaderboard for any stat, filtered by position, team, and season |
 | `get_snap_counts` | Offensive, defensive, and special-teams snaps and shares by game or player |
 | `get_advanced_stats` | Next Gen Stats tracking metrics and Pro Football Reference advanced stats |
-| `get_plays` | Play-by-play with EPA, win probability, situation filters, and optional FTN charting |
+| `get_plays` | Play-by-play with EPA, win probability, situation filters |
 | `get_odds` | Odds by game with bookmaker filters |
 | `get_game_detail` | Full game detail with team stats, starting QBs, odds, weather, and officials |
 | `get_head_to_head` | Matchup history with win/loss records and margins |
 | `get_line_movement` | Time-series odds grouped by bookmaker |
-| `get_player_props` | Player prop lines by sportsbook, opening and closing: passing, rushing and receiving yards, TDs, receptions, anytime TD |
-| `get_prop_history` | One player against his prop line over time for one market, with hit rate |
-| `get_alt_lines` | Alternate spreads and totals by sportsbook, every point on each ladder with its price |
+| `get_player_props` | Player prop lines by sportsbook, opening and closing |
+| `get_alt_lines` | Alternate spreads and totals by sportsbook: every point on the ladder, opening and closing, from the 2023 season to the current one |
+| `get_prop_history` | A player's prop lines against the result, game by game |
+| `get_prop_movement` | How one player's prop line moved before a game, every capture by sportsbook |
+| `get_alt_player_props` | Alternate player prop ladders by sportsbook: every passing, rushing and receiving line a book posted for a player (history from the 2023 season) |
+| `get_market_odds` | Opening and closing lines by sportsbook for the half and quarter markets (history from the 2023 season) |
+| `get_game_probabilities` | What the market thinks of a game: average implied and fair probability for the moneyline, spreads and totals |
+| `get_prop_probabilities` | What the market thinks of a game's player props: average implied and fair probability for each player and line |
+| `get_prop_backtest` | How often a kind of player prop hit against what the market implied, by your filters, since 2023 |
 
 ## Data
 
