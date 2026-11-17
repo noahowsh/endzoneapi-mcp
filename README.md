@@ -4,7 +4,7 @@
 
 **The football data API.** Play-by-play with EPA and win probability, player and team stats, schedules, injuries, depth charts and closing lines for every NFL game since 1999. REST API and MCP server. 500 free credits every month, no card.
 
-Website: https://endzoneapi.com · Docs: https://endzoneapi.com/docs · Get a key: https://endzoneapi.com/signup
+Website: https://endzoneapi.com?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp · Docs: https://endzoneapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp · Get a key: https://endzoneapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
 ```
 You:    "What was the closing spread for every Chiefs game last season?"
@@ -41,16 +41,16 @@ Claude: [loads epa-analysis + endzoneapi-tool, calls get_plays with third_down a
 
 ## Useful pages
 
-- Odds this week: https://endzoneapi.com/odds
-- Player props this week (best price per player across books): https://endzoneapi.com/props
-- Props guides: [receiving yards history](https://endzoneapi.com/guides/nfl-receiving-yards-prop-history-python), [anytime touchdown history](https://endzoneapi.com/guides/nfl-anytime-touchdown-prop-history-python), [passing yards history](https://endzoneapi.com/guides/nfl-passing-yards-prop-history-python)
-- Guides: https://endzoneapi.com/guides
-- Docs: https://endzoneapi.com/docs
-- Pricing: https://endzoneapi.com/pricing
-- Data coverage: https://endzoneapi.com/data
-- College football (FBS): https://endzoneapi.com/college-football
-- FCS football: https://endzoneapi.com/fcs-football
-- Compare: [ESPN API alternative](https://endzoneapi.com/compare/espn-api-alternative), [nflfastR API](https://endzoneapi.com/compare/nflfastr-api), [SportsDataIO alternative](https://endzoneapi.com/compare/sportsdataio-alternative)
+- Odds this week: https://endzoneapi.com/odds?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- Player props this week (best price per player across books): https://endzoneapi.com/props?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- Props guides: [receiving yards history](https://endzoneapi.com/guides/nfl-receiving-yards-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp), [anytime touchdown history](https://endzoneapi.com/guides/nfl-anytime-touchdown-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp), [passing yards history](https://endzoneapi.com/guides/nfl-passing-yards-prop-history-python?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp)
+- Guides: https://endzoneapi.com/guides?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- Docs: https://endzoneapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- Pricing: https://endzoneapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- Data coverage: https://endzoneapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- College football (FBS): https://endzoneapi.com/college-football?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- FCS football: https://endzoneapi.com/fcs-football?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- Compare: [ESPN API alternative](https://endzoneapi.com/compare/espn-api-alternative?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp), [nflfastR API](https://endzoneapi.com/compare/nflfastr-api?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp), [SportsDataIO alternative](https://endzoneapi.com/compare/sportsdataio-alternative?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp)
 
 ## Python
 
@@ -113,11 +113,11 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 
 ## Use it in
 
-- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.endzoneapi.com/mcp` as a remote MCP server. Step-by-step for each: https://endzoneapi.com/mcp
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.endzoneapi.com/mcp` as a remote MCP server. Step-by-step for each: https://endzoneapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 - **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/endzoneapi-mcp`
 - **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
-- **Google Sheets:** `=SDHQ("endzoneapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets
-- **REST:** `POST https://mcp.endzoneapi.com/v1/<tool>` with an `x-api-key` header: https://endzoneapi.com/docs
+- **Google Sheets:** `=SDHQ("endzoneapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+- **REST:** `POST https://mcp.endzoneapi.com/v1/<tool>` with an `x-api-key` header: https://endzoneapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
 ## Tools (26)
 
@@ -157,7 +157,7 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 - Player prop lines from 2023, captured live before every game
 - Weekly player and team stats, injuries (2009+), depth charts (2001+), snap counts (2012+), Next Gen Stats, FTN charting (2022+)
 
-Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds, https://endzoneapi.com/data/player-props and https://endzoneapi.com/data/play-by-play
+Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds,?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp https://endzoneapi.com/data/player-props?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp and https://endzoneapi.com/data/play-by-play?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
 ## Used by
 
@@ -167,7 +167,7 @@ Coverage by season, read live from the database: https://endzoneapi.com/data/his
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, kept while your account is open. https://endzoneapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, kept while your account is open. https://endzoneapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
 ## Attribution
 
@@ -185,7 +185,7 @@ Add this repo as a Codex plugin marketplace, then install the plugin:
 codex plugin marketplace add noahowsh/endzoneapi-mcp
 ```
 
-Then open the plugin directory in Codex and install `endzoneapi-skills` from the `endzoneapi` marketplace. The plugin bundles the skills in `skills/` and the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp). Set your key first (free at https://endzoneapi.com/signup):
+Then open the plugin directory in Codex and install `endzoneapi-skills` from the `endzoneapi` marketplace. The plugin bundles the skills in `skills/` and the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp). Set your key first (free at https://endzoneapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp):
 
 ```bash
 export ENDZONEAPI_API_KEY=your_key
@@ -200,4 +200,4 @@ export ENDZONEAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/endzoneapi-mcp
 ```
 
-The extension adds the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://endzoneapi.com/signup.
+The extension adds the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://endzoneapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
