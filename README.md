@@ -157,7 +157,7 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 - Player prop lines from 2023, captured live before every game
 - Weekly player and team stats, injuries (2009+), depth charts (2001+), snap counts (2012+), Next Gen Stats, FTN charting (2022+)
 
-Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds,?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp https://endzoneapi.com/data/player-props?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp and https://endzoneapi.com/data/play-by-play?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+Coverage by season, read live from the database: https://endzoneapi.com/data/historical-odds?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp, https://endzoneapi.com/data/player-props?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp and https://endzoneapi.com/data/play-by-play?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
 ## Used by
 
@@ -200,4 +200,4 @@ export ENDZONEAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/endzoneapi-mcp
 ```
 
-The extension adds the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://endzoneapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+The extension adds the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://endzoneapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp.
