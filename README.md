@@ -50,7 +50,6 @@ Claude: [loads epa-analysis + endzoneapi-tool, calls get_plays with third_down a
 - Data coverage: https://endzoneapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 - College football (FBS): https://endzoneapi.com/college-football?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 - FCS football: https://endzoneapi.com/fcs-football?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
-- Compare: [ESPN API alternative](https://endzoneapi.com/compare/espn-api-alternative?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp), [nflfastR API](https://endzoneapi.com/compare/nflfastr-api?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp), [SportsDataIO alternative](https://endzoneapi.com/compare/sportsdataio-alternative?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp)
 
 ## Python
 
