@@ -1,0 +1,56 @@
+{
+  "skill": "nfl-fourth-down-review",
+  "tasks": [
+    {
+      "prompt": "How often did Baltimore go for it on fourth down in 2025?",
+      "expect": [
+        "get_plays called with season, posteam BAL and down 4",
+        "go, punt and kick counts with the denominator and exclusions stated",
+        "conversion rate shown with n",
+        "no coaching verdict beyond the numbers"
+      ]
+    },
+    {
+      "prompt": "Fourth downs when a team is trailing and win probability is under 30%",
+      "expect": [
+        "get_plays called with down 4 and max_wp 0.3",
+        "situation filters repeated back to the user",
+        "small samples flagged as descriptive"
+      ]
+    },
+    {
+      "prompt": "Review the fourth-and-2 call in the Eagles game last Sunday",
+      "expect": [
+        "get_plays called with the game_id",
+        "down, distance, field position, score and win probability reported as returned",
+        "result stated without saying the call was right or wrong"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "what did the Lions do on fourth down",
+      "how often does Baltimore go for it on fourth down",
+      "review that fourth-and-2 call",
+      "fourth down tendencies this season",
+      "did they punt in plus territory",
+      "go-for-it rate when trailing",
+      "fourth down conversion rate for the Eagles",
+      "which teams are most aggressive on fourth down",
+      "did the Chiefs go for it too little this year",
+      "fourth down decisions in the red zone"
+    ],
+    "should_not": [
+      "preview the Bills game",
+      "who leads the league in EPA per play",
+      "Josh Allen passing yards prop",
+      "who is injured for the Packers",
+      "build a fourth-down decision model",
+      "fourth line in hockey explained",
+      "NFL standings",
+      "snap counts for the Bengals backfield",
+      "how does a punt work",
+      "QB efficiency rankings"
+    ]
+  }
+}

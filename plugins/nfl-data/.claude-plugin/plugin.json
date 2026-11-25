@@ -1,0 +1,23 @@
+{
+  "name": "nfl-data",
+  "displayName": "EndzoneAPI: football skills",
+  "version": "2.0.0",
+  "description": "Football analysis skills on EndzoneAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the EndzoneAPI MCP server.",
+  "author": {
+    "name": "SportsDataHQ",
+    "url": "https://sportsdatahq.com"
+  },
+  "homepage": "https://endzoneapi.com/skills",
+  "repository": "https://github.com/sports-data-hq/sportsdatahq-skills",
+  "license": "MIT",
+  "keywords": [
+    "nfl",
+    "football",
+    "college-football",
+    "epa",
+    "cpoe",
+    "fantasy-football",
+    "sports-data",
+    "endzoneapi"
+  ]
+}

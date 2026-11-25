@@ -1,0 +1,12 @@
+{
+  "skill": "nfl-game-preview",
+  "tasks": [
+    {"prompt": "Preview the next Bills game", "expect": ["get_schedule called with team BUF", "get_game_detail and get_injuries called", "market probability reported as the market's, no pick"]},
+    {"prompt": "Break down Michigan vs Ohio State", "expect": ["league ncaaf passed", "efficiency shown with games played", "Data line lists tools and season"]},
+    {"prompt": "What's the line and injury news for the Eagles game?", "expect": ["get_injuries for both teams", "spread and total from get_schedule or get_game_detail", "no stake or side suggested"]}
+  ],
+  "triggers": {
+    "should": ["preview Bills vs Chiefs", "break down the Ravens game Sunday", "what should I know about the Lions game", "matchup analysis for Thursday Night Football", "who's hurt for the Cowboys game", "give me a game preview for the Super Bowl", "Packers at Bears preview", "college football preview Georgia vs Alabama", "is the Eagles game a mismatch", "scouting report on this week's 49ers opponent"],
+    "should_not": ["Josh Allen passing yards prop history", "who should I start in fantasy this week", "preview the Lakers game", "NHL game preview tonight", "build an NFL win probability model", "list all NFL teams", "what is EPA", "Premier League match preview", "fourth down decision analysis for last week", "NFL standings"]
+  }
+}

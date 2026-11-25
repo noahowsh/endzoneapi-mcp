@@ -1,0 +1,55 @@
+{
+  "skill": "nfl-qb-efficiency",
+  "tasks": [
+    {
+      "prompt": "How efficient is Jordan Love this season?",
+      "expect": [
+        "search_players then get_advanced_stats ngs_passing called",
+        "EPA per dropback with rank and dropbacks",
+        "CPOE reported only if a tool returned it, otherwise stated as missing"
+      ]
+    },
+    {
+      "prompt": "Compare Burrow and Herbert",
+      "expect": [
+        "same season and filters for both",
+        "table with sample sizes",
+        "no claim from a field the tools did not return"
+      ]
+    },
+    {
+      "prompt": "What is Purdy's EPA on third down?",
+      "expect": [
+        "get_plays called with passer_id and third_down true",
+        "plays counted",
+        "small-sample warning if under about 150 dropbacks overall or under 30 plays in the split"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "how efficient is Jordan Love",
+      "compare Burrow and Herbert",
+      "is Daniels' pressure rate a problem",
+      "QB EPA and success rate",
+      "is he better than his completion percentage",
+      "CPOE for Purdy",
+      "quarterback efficiency profile for Caleb Williams",
+      "time to throw for Mahomes",
+      "how does Lamar compare to Allen by EPA",
+      "is Stafford still efficient"
+    ],
+    "should_not": [
+      "Mahomes passing yards prop tonight",
+      "rank all teams by EPA per play",
+      "preview the Bills game",
+      "who should I start at QB in fantasy",
+      "fourth down decisions for the Lions",
+      "QB injury report this week",
+      "NHL goalie save percentage",
+      "build a QB rating model",
+      "top 10 receivers by receiving EPA",
+      "college quarterback rankings"
+    ]
+  }
+}

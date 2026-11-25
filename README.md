@@ -16,14 +16,31 @@ Claude: [calls get_plays with third_down filter -> EPA already attached]
 
 ## Skills
 
-Claude skills for football now live in the SportsDataHQ skills marketplace, one plugin per sport, alongside skills for eight more sports: [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills).
+7 Claude skills for football ship in this repo, plus 14 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live EndzoneAPI tool call, and odds are information only: no stakes, no picks.
+
+Claude Code:
 
 ```
-/plugin marketplace add sports-data-hq/sportsdatahq-skills
-/plugin install nfl-data@sportsdatahq
+/plugin marketplace add sports-data-hq/endzoneapi-mcp
+/plugin install nfl-data@endzoneapi
+/plugin install sports-analytics-core@endzoneapi
 ```
 
-The plugin connects the EndzoneAPI MCP server; every number comes from a live call.
+Codex: `codex plugin marketplace add sports-data-hq/endzoneapi-mcp`. Any agent that reads skills: `npx skills add sports-data-hq/endzoneapi-mcp`.
+
+| Skill | What it does |
+|---|---|
+| `nfl-epa-leaderboards` | EPA leaderboards with the filters stated and sample sizes, excluding kneels, spikes and penalties |
+| `nfl-fourth-down-review` | Fourth-down decisions: what teams did in each situation and what the numbers say |
+| `nfl-game-preview` | One-page preview: records, EPA and success rate, injuries, the line and what it implies |
+| `nfl-injury-impact` | What an injury changes: depth chart, snap counts and with-and-without splits from play-by-play |
+| `nfl-player-props-research` | Prop lines by sportsbook, the player's record against his line, movement and no-margin probability |
+| `nfl-qb-efficiency` | Quarterback efficiency: EPA per dropback, success rate, completion over expected, air yards |
+| `nfl-weekly-usage-report` | Weekly usage: snaps, targets, carries and red-zone work, and who absorbs a vacated role |
+
+The analytics skills: `backtesting`, `data-pipeline`, `elo-engineering`, `feature-engineering`, `market-vs-model`, `model-building`, `nl-to-query`, `odds-market-analysis`, `prediction-tracker`, `probability-calibration`, `sports-data-preflight`, `sports-skill-router`, `visualization`, `walk-forward-validation`.
+
+All nine sports' skills live in [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills). The copies here are synced from there, so please open issues and pull requests there.
 
 ## Useful pages
 

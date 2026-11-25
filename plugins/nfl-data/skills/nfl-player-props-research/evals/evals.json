@@ -1,0 +1,12 @@
+{
+  "skill": "nfl-player-props-research",
+  "tasks": [
+    {"prompt": "How often has Josh Allen gone over his passing yards line?", "expect": ["search_players then get_prop_history with market player_pass_yds", "hit rate shown with n and pushes excluded", "no recommendation"]},
+    {"prompt": "Compare Saquon Barkley's rushing line across books this week", "expect": ["get_player_props with market player_rush_yds", "lines listed per book", "no 'best price to bet' language"]},
+    {"prompt": "What does the market think of Travis Kelce scoring a TD?", "expect": ["get_prop_probabilities", "no-margin probability reported as the market's", "no pick"]}
+  ],
+  "triggers": {
+    "should": ["Josh Allen passing yards prop", "how often does Saquon go over his rushing line", "compare receiving yards lines across books", "how did Lamar's rushing line move", "what's the anytime TD line for Kelce", "player prop history for CeeDee Lamb", "NFL props for the Bills game", "is Mahomes over or under his line usually", "receptions line for Amon-Ra this week", "what does the market imply for his passing TDs"],
+    "should_not": ["NBA points prop for Luka", "preview the Bills game", "who should I start at flex", "NFL standings", "build a props model in Python", "what's the spread for the Chiefs game", "NHL shots on goal props", "explain what a prop bet is", "Premier League anytime scorer", "Josh Allen career stats"]
+  }
+}

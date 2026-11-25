@@ -1,0 +1,55 @@
+{
+  "skill": "nfl-epa-leaderboards",
+  "tasks": [
+    {
+      "prompt": "Who leads the league in rushing EPA among running backs this season?",
+      "expect": [
+        "get_player_leaders called with stat rushing_epa and position RB",
+        "min_games stated and games shown per row",
+        "exclusions and unadjusted caveat stated"
+      ]
+    },
+    {
+      "prompt": "Rank the offenses by EPA per play on third down",
+      "expect": [
+        "get_plays called with third_down true",
+        "penalties, kneels and spikes excluded and said",
+        "plays counted per team"
+      ]
+    },
+    {
+      "prompt": "Which defense is best by EPA allowed over the last 6 weeks?",
+      "expect": [
+        "get_plays or get_team_stats called with the week range",
+        "window and sample size stated",
+        "small gaps not over-read"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "who leads the league in EPA per play",
+      "best rushing offense by EPA",
+      "top receivers by receiving EPA",
+      "which defense is best by EPA allowed",
+      "EPA leaders on third down",
+      "rank the NFL teams by efficiency",
+      "best passing offense this season by EPA",
+      "EPA per play leaderboard for running backs",
+      "who has the best red zone EPA",
+      "most efficient offenses through week 10"
+    ],
+    "should_not": [
+      "how efficient is Patrick Mahomes this year",
+      "preview the Chiefs game",
+      "fourth down go-for-it rate",
+      "Derrick Henry rushing yards prop",
+      "who is injured on the Giants",
+      "what does EPA stand for",
+      "NHL expected goals leaders",
+      "NBA offensive rating leaders",
+      "build an EPA model from scratch",
+      "weekly snap share report"
+    ]
+  }
+}

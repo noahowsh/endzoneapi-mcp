@@ -1,0 +1,55 @@
+{
+  "skill": "nfl-injury-impact",
+  "tasks": [
+    {
+      "prompt": "What happens to the Bengals offense when Burrow is out?",
+      "expect": [
+        "get_injuries and get_snap_counts called",
+        "with and without EPA per play with plays counted",
+        "not enough data stated if few games missed"
+      ]
+    },
+    {
+      "prompt": "Who is behind the Chiefs left tackle on the depth chart and is he playing?",
+      "expect": [
+        "get_injuries and get_depth_chart called",
+        "status and practice participation reported as returned",
+        "no guess at who will play"
+      ]
+    },
+    {
+      "prompt": "Is the Bills defense worse without their star linebacker?",
+      "expect": [
+        "get_plays called with defteam for missed weeks",
+        "opponents and sample sizes shown",
+        "described as a split, not a cause"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "how much does losing the left tackle matter",
+      "what happens to the offense without their QB",
+      "who plays if the RB1 is out",
+      "is the defense worse without their top linebacker",
+      "injury report effect on the Chiefs",
+      "how did the team do when he missed games",
+      "what does the depth chart look like behind the injured starter",
+      "does the offense change without the WR1",
+      "with and without splits for the Bengals",
+      "who replaces the injured center"
+    ],
+    "should_not": [
+      "who is the waiver add after the injury",
+      "Mahomes passing yards prop",
+      "preview the Eagles game tonight",
+      "NBA injury report",
+      "fantasy points ranking",
+      "fourth down decisions this season",
+      "EPA leaderboard by position",
+      "snap share trends for the Bengals backfield",
+      "NHL goalie injury news",
+      "predict how many weeks he will miss"
+    ]
+  }
+}

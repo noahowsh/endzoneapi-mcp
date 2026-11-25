@@ -1,0 +1,12 @@
+{
+  "skill": "nfl-weekly-usage-report",
+  "tasks": [
+    {"prompt": "Ja'Marr Chase is out. Who gets the targets for the Bengals?", "expect": ["get_injuries and get_snap_counts called", "target share with denominators", "vacated-role evidence with sample size"]},
+    {"prompt": "Snap share trend for the 49ers backfield the last 3 weeks", "expect": ["get_snap_counts with team SF and weeks", "trend per player", "Data line"]},
+    {"prompt": "Who's the best waiver pickup after the Lions RB injury?", "expect": ["depth chart checked", "usage evidence cited", "no betting language"]}
+  ],
+  "triggers": {
+    "should": ["who gets more work with the WR1 out", "snap share trends Bengals backfield", "target share leaders week 12", "waiver add after the injury", "compare usage for my flex options", "who replaces Kelce if he sits", "red zone touches for the Eagles", "is this backup worth picking up", "fantasy usage report for the Dolphins", "who absorbs carries in Detroit"],
+    "should_not": ["Josh Allen passing yards prop", "preview the Bills game", "NBA minutes with LeBron out", "NFL power rankings", "build a fantasy projection model", "who won the game last night", "fourth down analysis", "MLB streaming pitchers this week", "NFL odds this week", "explain target share"]
+  }
+}
