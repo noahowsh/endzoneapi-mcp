@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "endzoneapi": {
-      "type": "http",
-      "url": "https://mcp.endzoneapi.com/mcp"
-    }
-  }
-}

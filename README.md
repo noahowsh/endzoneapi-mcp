@@ -16,28 +16,14 @@ Claude: [calls get_plays with third_down filter -> EPA already attached]
 
 ## Skills
 
-16 free Claude skills turn Claude into a football analyst wired to these tools: EPA per play and success rate, Next Gen Stats, weekly player stats, odds and devigging, prop modeling, college football and FCS, and honest backtesting. They are plain markdown folders.
-
-```bash
-git clone https://github.com/noahowsh/endzoneapi-mcp.git
-```
-
-Or install them as a Claude Code plugin:
+Claude skills for football now live in the SportsDataHQ skills marketplace, one plugin per sport, alongside skills for eight more sports: [sports-data-hq/sportsdatahq-skills](https://github.com/sports-data-hq/sportsdatahq-skills).
 
 ```
-/plugin marketplace add noahowsh/endzoneapi-mcp
-/plugin install endzoneapi-skills@endzoneapi
+/plugin marketplace add sports-data-hq/sportsdatahq-skills
+/plugin install nfl-data@sportsdatahq
 ```
 
-Or with the skills CLI: `npx skills add noahowsh/endzoneapi-mcp`.
-
-Point Claude (Claude Code, or any client that loads skills) at the `skills/` folder, and connect the MCP server above so the skills can call live data. The `dispatch` skill routes a request to the right two or three skills. Full list: [skills/README.md](skills/README.md)
-
-```
-You:    "Which offenses were best on third down in 2025, and how many plays is that based on?"
-Claude: [loads epa-analysis + endzoneapi-tool, calls get_plays with third_down and a limit that
-         holds the split, reports EPA per play, success rate and the play count]
-```
+The plugin connects the EndzoneAPI MCP server; every number comes from a live call.
 
 ## Useful pages
 
@@ -178,19 +164,13 @@ MIT for the contents of this repository. Data terms as above.
 
 ## Use with Codex
 
-Add this repo as a Codex plugin marketplace, then install the plugin:
+The SportsDataHQ skills marketplace also works in Codex (it reads `.agents/plugins/marketplace.json`):
 
 ```bash
-codex plugin marketplace add noahowsh/endzoneapi-mcp
+codex plugin marketplace add sports-data-hq/sportsdatahq-skills
 ```
 
-Then open the plugin directory in Codex and install `endzoneapi-skills` from the `endzoneapi` marketplace. The plugin bundles the skills in `skills/` and the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp). Set your key first (free at https://endzoneapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp):
-
-```bash
-export ENDZONEAPI_API_KEY=your_key
-```
-
-Codex sends it as a bearer token.
+Install `nfl-data`, which bundles the football skills and the EndzoneAPI MCP server.
 
 ## Use with Gemini CLI
 
