@@ -2,7 +2,7 @@
 name: nfl-weekly-usage-report
 description: "Use when the user has weekly NFL fantasy or usage questions, in fan or analyst wording: 'who do I start at flex', 'RB2 or WR3 this week', 'who replaces Kupp', 'is his snap share rising', 'handcuff to grab', 'target hog on the Bengals', 'best waiver pickups', 'backfield split', 'who eats the targets if the top WR is out', 'which of my flex guys sees more volume', 'next man up if he sits'. Use this whenever fantasy lineups, waivers, snaps, targets or carries are the subject. Also use it for bare follow-ups with no name given, and load it instead of answering from memory or going straight to the raw tools. Builds a usage report from snaps, targets, carries, red-zone work and injuries, and names who absorbs a vacated role. Not for how an injury changes a whole team (see nfl-injury-impact), player prop lines (see nfl-player-props-research) or a game preview (see nfl-game-preview)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

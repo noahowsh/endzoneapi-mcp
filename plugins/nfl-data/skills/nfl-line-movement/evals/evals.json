@@ -1,0 +1,55 @@
+{
+  "skill": "nfl-line-movement",
+  "tasks": [
+    {
+      "prompt": "How did the Bills Chiefs spread move this week?",
+      "expect": [
+        "get_line_movement called with the game id",
+        "open to close with key numbers crossed",
+        "no sharp money claims or advice"
+      ]
+    },
+    {
+      "prompt": "Just the opening and closing total for the Eagles game",
+      "expect": [
+        "uses get_odds instead of the 25 credit tool",
+        "opening and closing per book",
+        "no pick"
+      ]
+    },
+    {
+      "prompt": "Show me alternate spreads for Ravens Steelers",
+      "expect": [
+        "get_alt_lines with market alternate_spreads",
+        "points and prices by book",
+        "closing ladder"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "how did the Chiefs line move",
+      "did the total drop for Bills Chiefs",
+      "opening vs closing spread for Sunday's Eagles game",
+      "which book moved first on the Cowboys spread",
+      "what are the alternate spreads for Ravens Steelers",
+      "did the line change after the QB news",
+      "line history for Thursday night",
+      "did the spread cross 3 on the Lions game",
+      "show me the alt totals ladder for Packers Bears",
+      "how far did the Monday night spread move"
+    ],
+    "should_not": [
+      "Mahomes passing yards prop history",
+      "preview Bills vs Chiefs",
+      "who covers on Sunday",
+      "how did the Alabama line move",
+      "NBA line movement for the Celtics",
+      "start or sit my receiver",
+      "who is injured on the Eagles",
+      "which side should I bet on the Chiefs",
+      "how do I convert odds to probability",
+      "NFL standings"
+    ]
+  }
+}

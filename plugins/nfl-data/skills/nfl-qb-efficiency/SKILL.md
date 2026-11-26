@@ -2,7 +2,7 @@
 name: nfl-qb-efficiency
 description: "Use when the user wants an efficiency profile of an NFL quarterback or a comparison of two: 'how efficient is Jordan Love', 'compare Burrow and Herbert', 'is Daniels' pressure rate a problem', 'QB EPA and success rate', 'is he better than his completion percentage', 'CPOE for Purdy'. Reports EPA per dropback, success rate, completion percentage above expectation where the data has it, air yards, time to throw and pressure splits with sample sizes. Not for QB prop lines (see nfl-player-props-research), league-wide EPA lists (see nfl-epa-leaderboards) or a game preview (see nfl-game-preview)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

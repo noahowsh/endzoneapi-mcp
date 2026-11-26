@@ -24,7 +24,7 @@ Claude: [calls get_plays with third_down filter -> EPA already attached]
 
 ## Skills
 
-12 Claude skills for football ship in this repo, plus 13 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live EndzoneAPI tool call, and odds are information only: no stakes, no picks.
+13 Claude skills for football ship in this repo, plus 13 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live EndzoneAPI tool call, and odds are information only: no stakes, no picks.
 
 Claude Code:
 
@@ -47,6 +47,7 @@ Codex: `codex plugin marketplace add sports-data-hq/endzoneapi-mcp`. Any agent t
 | `nfl-fourth-down-review` | Fourth-down decisions: what teams did in each situation and what the numbers say |
 | `nfl-game-preview` | One-page preview: records, EPA and success rate, injuries, the line and what it implies |
 | `nfl-injury-impact` | What an injury changes: depth chart, snap counts and with-and-without splits from play-by-play |
+| `nfl-line-movement` | How an NFL spread, total or moneyline moved by book, with key numbers crossed, timing and the alternate-line ladders |
 | `nfl-player-props-research` | Prop lines by sportsbook, the player's record against his line, movement and no-margin probability |
 | `nfl-qb-efficiency` | Quarterback efficiency: EPA per dropback, success rate, completion over expected, air yards |
 | `nfl-weekly-usage-report` | Weekly usage: snaps, targets, carries and red-zone work, and who absorbs a vacated role |

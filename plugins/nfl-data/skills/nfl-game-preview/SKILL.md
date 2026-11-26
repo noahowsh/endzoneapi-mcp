@@ -2,7 +2,7 @@
 name: nfl-game-preview
 description: "Use when the user wants a preview or breakdown of one NFL game: 'preview Bills vs Chiefs', 'break down Sunday's Eagles game', 'what should I know about the Ravens game', 'who's hurt for the Lions game', 'matchup analysis for TNF'. Produces a one-page report: records and form, efficiency (EPA, success rate), injuries, the line and what it implies, and head-to-head. Not for a whole week's slate of player props (see nfl-player-props-research), fantasy usage (see nfl-weekly-usage-report) or building a model (see model-building)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 

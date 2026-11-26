@@ -2,7 +2,7 @@
 name: nfl-fourth-down-review
 description: "Use when the user wants to review fourth-down decisions in the NFL: 'what did the Lions do on fourth down', 'how often does Baltimore go for it', 'review that fourth-and-2 call', 'fourth down tendencies this season', 'did they punt in plus territory', 'go-for-it rate when trailing'. Pulls fourth-down plays with the situation filters and reports what teams did and what the numbers say about those plays (conversion, EPA, win probability). Not for a game preview (see nfl-game-preview), league EPA rankings (see nfl-epa-leaderboards) or building a decision model (see model-building)."
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   author: SportsDataHQ
 ---
 
