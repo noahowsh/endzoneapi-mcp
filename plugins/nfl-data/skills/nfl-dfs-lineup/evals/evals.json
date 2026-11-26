@@ -1,0 +1,56 @@
+{
+  "skill": "nfl-dfs-lineup",
+  "tasks": [
+    {
+      "prompt": "Here is my DraftKings salary file for the main slate, build a lineup: QB Allen 6800, RB Cook 6200, RB Henry 6900, WR Diggs 6100, WR Coleman 4400, WR Samuel 5500, TE Kincaid 4700, DST Ravens 3400 (plus the rest of the pool pasted)",
+      "expect": [
+        "asks for or states cap and slots",
+        "estimate_only before props",
+        "prop-implied points formula shown",
+        "total salary under cap"
+      ]
+    },
+    {
+      "prompt": "Build a lineup with a Mahomes stack and a bring-back, here is the salary file",
+      "expect": [
+        "stack fixed then re-solved",
+        "bring-back opponent player",
+        "no entry or contest advice"
+      ]
+    },
+    {
+      "prompt": "Which cheap flex plays have the best projection per dollar this week? salary file pasted",
+      "expect": [
+        "points per $1,000 shown",
+        "no market line players marked",
+        "injury check"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "build my DraftKings lineup from this salary file",
+      "make a lineup under the cap for Sunday",
+      "FanDuel lineup for the main slate",
+      "optimize with a QB stack and a bring-back",
+      "who are the best value plays at RB this week",
+      "cheap flex options for DFS",
+      "project the whole slate in fantasy points",
+      "here are the salaries, give me three lineups",
+      "lineup with Mahomes and two of his receivers",
+      "fill my last spot with 4,500 left"
+    ],
+    "should_not": [
+      "start Chase or Waddle in my league",
+      "best waiver adds",
+      "how much should I put into a contest",
+      "which contest should I enter",
+      "is Mahomes over 250 passing yards a good price",
+      "NFL game preview Chiefs Bills",
+      "trade offer for my RB",
+      "draft board for next season",
+      "who is the best bet this week",
+      "explain what a bring-back is"
+    ]
+  }
+}

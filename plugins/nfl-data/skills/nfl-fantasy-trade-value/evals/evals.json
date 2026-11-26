@@ -1,0 +1,56 @@
+{
+  "skill": "nfl-fantasy-trade-value",
+  "tasks": [
+    {
+      "prompt": "Is Barkley for Ja'Marr Chase fair? I'm in a 12-team PPR league",
+      "expect": [
+        "both players priced in points over replacement",
+        "formula and games left stated",
+        "net and a call",
+        "roster fit marked unknown"
+      ]
+    },
+    {
+      "prompt": "Should I sell high on Jauan Jennings?",
+      "expect": [
+        "TD vs usage evidence",
+        "snap trend with n",
+        "no invented trade chart value"
+      ]
+    },
+    {
+      "prompt": "2-for-1: I give Kupp and Pollard, I get Brian Thomas Jr",
+      "expect": [
+        "2-for-1 logic with the displaced bench player",
+        "replacement level stated",
+        "schedule and bye noted"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "is this trade fair",
+      "my Barkley for his Chase, thoughts",
+      "should I trade for him",
+      "who wins this trade",
+      "should I sell high on him",
+      "buy low candidates right now",
+      "2 for 1 offer, should I take it",
+      "what is he worth rest of season",
+      "trade deadline moves for my team",
+      "he offered me two WRs for my RB1"
+    ],
+    "should_not": [
+      "who should I start at flex",
+      "waiver pickups this week",
+      "draft board for next year",
+      "build a DFS lineup",
+      "dynasty rookie pick values",
+      "Chase receiving yards prop",
+      "NFL trade deadline news",
+      "which team traded for the QB",
+      "explain trade value charts",
+      "who wins the Bills Chiefs game"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 name: nfl-epa-leaderboards
 description: "Use when the user wants NFL rankings built on expected points added: 'who leads the league in EPA per play', 'best rushing offense by EPA', 'top receivers by receiving EPA', 'which defense is best by EPA allowed', 'EPA leaders on third down', 'rank the teams by efficiency'. Builds a leaderboard with the filters stated, the sample size per row and penalties, kneels and spikes excluded. Not for one quarterback's efficiency profile (see nfl-qb-efficiency), a game preview (see nfl-game-preview) or fourth-down decisions (see nfl-fourth-down-review)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

@@ -24,7 +24,7 @@ Claude: [calls get_plays with third_down filter -> EPA already attached]
 
 ## Skills
 
-7 Claude skills for football ship in this repo, plus 15 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live EndzoneAPI tool call, and odds are information only: no stakes, no picks.
+12 Claude skills for football ship in this repo, plus 15 analytics skills for models, backtests, calibration and comparing a model with the market. Every number in an answer comes from a live EndzoneAPI tool call, and odds are information only: no stakes, no picks.
 
 Claude Code:
 
@@ -38,7 +38,12 @@ Codex: `codex plugin marketplace add sports-data-hq/endzoneapi-mcp`. Any agent t
 
 | Skill | What it does |
 |---|---|
+| `nfl-dfs-lineup` | Build a lineup under the cap from your salary file, from the market's per-player projections |
 | `nfl-epa-leaderboards` | EPA leaderboards with the filters stated and sample sizes, excluding kneels, spikes and penalties |
+| `nfl-fantasy-draft-board` | Tiered draft board with value over replacement from last season, against the ADP you paste |
+| `nfl-fantasy-start-sit` | Rank your players for the week from the market's per-player lines turned into fantasy points, with usage and matchup |
+| `nfl-fantasy-trade-value` | Price both sides of a trade in rest-of-season points above replacement, with games left and byes |
+| `nfl-fantasy-waivers` | Waiver pickups ranked by snap-share trend, touches and depth-chart path, with no bid amounts |
 | `nfl-fourth-down-review` | Fourth-down decisions: what teams did in each situation and what the numbers say |
 | `nfl-game-preview` | One-page preview: records, EPA and success rate, injuries, the line and what it implies |
 | `nfl-injury-impact` | What an injury changes: depth chart, snap counts and with-and-without splits from play-by-play |

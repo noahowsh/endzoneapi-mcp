@@ -2,7 +2,7 @@
 name: nfl-player-props-research
 description: "Use when the user asks about NFL player prop lines or how a player did against his line, in fan or analyst wording: 'Mahomes passing yards number', 'Henry rushing over?', 'Nacua receptions line', 'who has the best price on Lamb', 'did his yards line move', 'how often does he cash anytime TD', 'prop history for Chase'. Use this whenever a player is mentioned with a stat line. Load it for short fragments and follow-ups too, even with no name given, instead of answering from memory or going straight to the raw tools. Shows lines by sportsbook, a player's record against his line with sample size, line movement and no-margin probability. Never says which side to take. Not for game spreads and totals, game previews (see nfl-game-preview), fantasy start or sit (see nfl-weekly-usage-report) or basketball props (see nba-player-props-research)."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
   author: SportsDataHQ
 ---
 

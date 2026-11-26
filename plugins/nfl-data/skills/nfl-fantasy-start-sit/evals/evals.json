@@ -1,0 +1,56 @@
+{
+  "skill": "nfl-fantasy-start-sit",
+  "tasks": [
+    {
+      "prompt": "Flex spot: Garrett Wilson or Jaylen Waddle this week, PPR?",
+      "expect": [
+        "search_players then get_schedule called",
+        "prop-implied fantasy points with the formula",
+        "injury status and snap share with n",
+        "clear call with margin"
+      ]
+    },
+    {
+      "prompt": "Should I start Josh Allen or stream a QB, 4-point passing TDs?",
+      "expect": [
+        "scoring stated as 4-point TDs",
+        "QB projection from passing yards and TD lines",
+        "floor and ceiling from last 5 games with dates"
+      ]
+    },
+    {
+      "prompt": "Rank my RBs for Sunday: Kyren Williams, Chuba Hubbard, Tyrone Tracy",
+      "expect": [
+        "each RB projected from rushing yards, receptions and TD probability",
+        "snap share trend",
+        "Data line"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "start or sit Saquon or Kamara this week",
+      "who should I flex, Waddle or Chase",
+      "is my RB2 startable on Sunday",
+      "rank my three WRs for this week",
+      "should I start Jordan Love or stream a QB",
+      "who is better this week, Kelce or LaPorta",
+      "he is questionable, do I start him",
+      "sit Tee Higgins against that defense?",
+      "which of my running backs do I start in half PPR",
+      "help me set my lineup, tough flex decision"
+    ],
+    "should_not": [
+      "who should I pick up off waivers",
+      "build me a DraftKings lineup with this salary file",
+      "is this trade fair, my Barkley for his Chase",
+      "what is Mahomes passing yards line",
+      "preview the Bills game",
+      "how did the Packers offense do last week",
+      "draft rankings for next season",
+      "NFL standings",
+      "who replaces the injured Eagles WR in snap share",
+      "what is target share"
+    ]
+  }
+}

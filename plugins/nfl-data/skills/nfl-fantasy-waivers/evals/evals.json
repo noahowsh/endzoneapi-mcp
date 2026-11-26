@@ -1,0 +1,56 @@
+{
+  "skill": "nfl-fantasy-waivers",
+  "tasks": [
+    {
+      "prompt": "Best waiver adds at wide receiver this week?",
+      "expect": [
+        "get_player_leaders for targets by WR",
+        "snap trends for named candidates with n",
+        "availability marked unchecked",
+        "no FAAB amount"
+      ]
+    },
+    {
+      "prompt": "Which RB handcuffs should I stash? I have Henry and Barkley.",
+      "expect": [
+        "depth chart and injury check for those starters",
+        "backup snap share cited",
+        "handcuff value conditional on starter status"
+      ]
+    },
+    {
+      "prompt": "Streaming tight end this week, who is rising?",
+      "expect": [
+        "TE targets leaders called",
+        "snap and target trend over last 3 games",
+        "thin-pool caveat"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "best waiver wire adds this week",
+      "who do I pick up off the wire",
+      "any breakout WRs I can still grab",
+      "handcuff I should stash for Derrick Henry",
+      "my RB got hurt, who do I add",
+      "streaming tight end for this week",
+      "who is rising in snap share that is probably available",
+      "is this backup worth a FAAB bid",
+      "sleeper running backs with rising usage",
+      "who is trending up that nobody is talking about"
+    ],
+    "should_not": [
+      "start Chase or Waddle this week",
+      "build my DraftKings lineup",
+      "trade value of Kupp for Nacua",
+      "Mahomes passing yards line",
+      "who gets the targets if Chase is out",
+      "preview Chiefs at Bills",
+      "NFL power rankings",
+      "fourth down decisions",
+      "which kicker had the longest field goal",
+      "full draft board for next season"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "skill": "nfl-fantasy-draft-board",
+  "tasks": [
+    {
+      "prompt": "Build me a draft board for a 12-team PPR league",
+      "expect": [
+        "settings stated or defaulted",
+        "per-game points with games played",
+        "replacement level and VOR formula",
+        "tiers with break sizes"
+      ]
+    },
+    {
+      "prompt": "Who are the overrated RBs at ADP? ADP: 1 Bijan, 2 Gibbs, 3 Henry, 4 Barkley, 5 Jonathan Taylor",
+      "expect": [
+        "uses the pasted ADP",
+        "compares with VOR rank",
+        "only gaps of 10 picks or more flagged"
+      ]
+    },
+    {
+      "prompt": "Best sleeper tight ends for my draft?",
+      "expect": [
+        "TE targets and points leaders called",
+        "thin-sample flags",
+        "no invented ADP"
+      ]
+    }
+  ],
+  "triggers": {
+    "should": [
+      "build me a draft board",
+      "tiers for wide receivers this year",
+      "who is overrated at his ADP",
+      "sleepers for my fantasy draft",
+      "value over replacement by position",
+      "who should I take at pick 24",
+      "superflex rankings for my league",
+      "who might fall in my draft",
+      "best ball board for Underdog",
+      "draft cheat sheet for a 10 team league"
+    ],
+    "should_not": [
+      "start or sit for this week",
+      "best waiver adds",
+      "DraftKings lineup from this salary file",
+      "trade my Chase for Barkley",
+      "fantasy basketball draft rankings",
+      "NFL MVP odds",
+      "Chiefs season win total",
+      "explain what ADP means",
+      "who won the Super Bowl",
+      "NFL Draft prospect rankings"
+    ]
+  }
+}
