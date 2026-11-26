@@ -45,3 +45,4 @@ Data: get_injuries, get_snap_counts, get_player_stats, get_depth_chart | season 
 - Three weeks is the default window; say so, and widen it if the user asks for season-long.
 - Fantasy advice is about usage and role; do not mix in betting language.
 - If the injury report has not been released for the week yet, say so and use last week's.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

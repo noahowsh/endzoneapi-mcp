@@ -16,7 +16,7 @@ An injury matters through the player's role and who replaces him. This skill fin
 - `season` is the year the regular season starts (2025 = the 2025-26 season). Team codes are standard abbreviations (LA, WAS, LV, LAC, JAX); `list_teams` (1 cr) if unsure.
 - The injury report gives game status (Out, Doubtful, Questionable) and practice participation by team and week; it defaults to the latest reported week. It is not a forecast of who plays.
 - With-and-without splits need games the player missed. If he missed fewer than 3 games, report the games and say the split is anecdotal.
-- Snap counts use PFR ids (returned by `search_players` as `pfr_id`); plays and advanced stats use GSIS ids.
+- Snap counts use the `pfr_id` that `search_players` returns; plays and advanced stats use GSIS ids.
 
 ## Default path (about 20 to 30 credits)
 1. **Status.** `get_injuries(team, week)` (2 cr), filter `status` if needed. Report status, injury and practice participation.
@@ -45,6 +45,7 @@ Data: get_injuries, get_depth_chart, get_snap_counts, get_plays | season <yyyy>,
 - Every number names its tool (the Data line, plus inline where it could be doubted) and every rate shows its sample size.
 - If a tool returns too little, say "not enough data" and stop; do not estimate or borrow another sample.
 - Odds and prices are information about the market only: no picks, leans, stakes, payouts or sportsbook links.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts
 - "How much does losing the left tackle matter for the Eagles?"

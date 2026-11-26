@@ -1,6 +1,6 @@
 ---
 name: nfl-game-preview
-description: "Use when the user wants a preview or breakdown of one NFL or college football game: 'preview Bills vs Chiefs', 'break down Sunday's Eagles game', 'what should I know about the Ravens game', 'who's hurt for the Lions game', 'matchup analysis for TNF'. Produces a one-page report: records and form, efficiency (EPA, success rate), injuries, the line and what it implies, and head-to-head. Not for a whole week's slate of player props (see nfl-player-props-research), fantasy usage (see nfl-weekly-usage-report) or building a model (see model-building)."
+description: "Use when the user wants a preview or breakdown of one NFL game: 'preview Bills vs Chiefs', 'break down Sunday's Eagles game', 'what should I know about the Ravens game', 'who's hurt for the Lions game', 'matchup analysis for TNF'. Produces a one-page report: records and form, efficiency (EPA, success rate), injuries, the line and what it implies, and head-to-head. Not for a whole week's slate of player props (see nfl-player-props-research), fantasy usage (see nfl-weekly-usage-report) or building a model (see model-building)."
 metadata:
   version: 2.0.0
   author: SportsDataHQ
@@ -8,7 +8,7 @@ metadata:
 
 # NFL game preview
 
-A shareable one-page preview of a single game, built from live EndzoneAPI calls. Football means the NFL unless the user names college (`league: "ncaaf"`) or FCS.
+A shareable one-page preview of a single game, built from live EndzoneAPI calls. It covers the NFL; college games are not available through these tools, so say so if asked.
 
 ## Before you start
 - For anything across games, seasons or players, apply the sports-data-preflight checks first (ids from search, the season convention, one league, enough data).
@@ -41,8 +41,8 @@ Data: get_schedule, get_game_detail, get_standings, get_injuries, get_game_proba
 - EPA excludes penalties, kneels and spikes; it will not match official box-score yards.
 - Odds are information about the market. Never suggest a side, a stake or a bet.
 - If a tool returns nothing (game not scheduled yet, no line posted), say what is missing instead of estimating it.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts
 - "Preview Bills at Chiefs this Sunday"
-- "Break down the Michigan vs Ohio State game" (college: pass `league: "ncaaf"`)
 - "Who's out for the Eagles game and what's the line?"

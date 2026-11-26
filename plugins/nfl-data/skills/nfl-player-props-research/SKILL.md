@@ -45,3 +45,4 @@ Data: search_players, get_player_props, get_prop_probabilities, get_prop_history
 - Odds are information only: no picks, no "lean", no "value", no stake or payout math, no sportsbook links.
 - Name the tool behind every number and the sample size behind every rate.
 - If a market has no line for this game yet, say so; do not substitute another market.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.

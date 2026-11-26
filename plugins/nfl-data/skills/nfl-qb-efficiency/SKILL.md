@@ -15,13 +15,13 @@ Passer rating hides most of what matters. This skill profiles one quarterback, o
 - Tools come from the EndzoneAPI MCP server (`https://mcp.endzoneapi.com/mcp`). Call them; never fill in a number from memory.
 - `season` is the year the regular season starts (2025 = the 2025-26 season). Team codes are standard abbreviations (LA, WAS, LV, LAC, JAX); `list_teams` (1 cr) if unsure.
 - Player ids are GSIS ids from `search_players` (2 cr). Next Gen Stats start in 2016 and the Pro Football Reference advanced tables in 2018; check the season is covered.
-- Completion percentage above expectation (CPOE) comes from two places: `get_advanced_stats(source: "ngs_passing")` and the play-level fields on `get_plays`. Use whichever the tool returned and name it. If a query returns no CPOE field, say CPOE is not in that result and leave it out; do not compute it yourself.
-- Pressure and hurry counts come from `get_advanced_stats(source: "pfr_passing")`. Read the column names the tool returns before quoting a rate.
+- Completion percentage above expectation (CPOE) comes from two places: `get_advanced_stats(source: "tracking_passing")` and the play-level fields on `get_plays`. Use whichever the tool returned and name it. If a query returns no CPOE field, say CPOE is not in that result and leave it out; do not compute it yourself.
+- Pressure and hurry counts come from `get_advanced_stats(source: "charting_passing")`. Read the column names the tool returns before quoting a rate.
 
 ## Default path (about 22 credits per quarterback)
-1. **Resolve the player.** `search_players(name)` (2 cr): GSIS id and PFR id.
+1. **Resolve the player.** `search_players(query)` (2 cr): GSIS id and PFR id.
 2. **Season line.** `get_player_leaders(stat: "passing_epa", position: "QB", season, min_games)` (5 cr) for rank among qualifying quarterbacks, or `get_player_stats(player_id, season)` (5 cr) for the season totals and weekly lines.
-3. **Tracking fields.** `get_advanced_stats(source: "ngs_passing", player_id, season)` (5 cr): time to throw, air yards, CPOE where present. Add `source: "pfr_passing"` (5 cr) for pressure, drops and bad throws.
+3. **Tracking fields.** `get_advanced_stats(source: "tracking_passing", player_id, season)` (5 cr): time to throw, air yards, CPOE where present. Add `source: "charting_passing"` (5 cr) for pressure, drops and bad throws.
 4. **Situations (optional).** `get_plays(season, passer_id, down or red_zone or third_down)` (10 cr): the query's EPA and success-rate summary on the filter.
 5. **Comparison.** Repeat steps 1-4 for the second passer and put both on one table with the same season and filters.
 
@@ -47,6 +47,7 @@ Data: search_players, get_player_leaders, get_advanced_stats[, get_plays] | seas
 - Every number names its tool (the Data line, plus inline where it could be doubted) and every rate shows its sample size.
 - If a tool returns too little, say "not enough data" and stop; do not estimate or borrow another sample.
 - Odds and prices are information about the market only: no picks, leans, stakes, payouts or sportsbook links.
+- Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts
 - "How efficient is Jordan Love this season?"
