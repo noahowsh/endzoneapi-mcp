@@ -1,6 +1,6 @@
 ---
 name: nfl-injury-impact
-description: "Use when the user wants to know what an NFL injury changes: 'how much does losing the left tackle matter', 'what happens to the offense without their QB', 'who plays if the RB1 is out', 'is the Bills defense worse without Milano', 'injury report effect on the Chiefs', 'how did the team do when he missed games'. Combines the injury report, depth chart, snap counts and with-and-without splits from play-by-play, with sample sizes. Not for fantasy waiver advice (see nfl-weekly-usage-report), prop lines (see nfl-player-props-research) or a full game preview (see nfl-game-preview)."
+description: "Use when the user asks what an NFL injury or absence changes for a team, in fan or analyst wording: 'how bad is losing their LT', 'Chiefs without Kelce', 'does the D fall off with no Micah', 'who steps in at center', 'how do they play when he sits', 'is the injury report a big deal', 'record without their QB'. Use this whenever a missing player and a team's results or lineup are discussed. Load it for short fragments and follow-ups too, even with no name given, instead of answering from memory or going straight to the raw tools. Combines the injury report, depth chart, snap counts and with-and-without splits from play-by-play, with sample sizes. Not for fantasy waiver or usage (see nfl-weekly-usage-report), prop lines (see nfl-player-props-research), a game preview (see nfl-game-preview) or other sports' injuries."
 metadata:
   version: 2.0.0
   author: SportsDataHQ
