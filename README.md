@@ -116,8 +116,8 @@ Every tool is `POST /v1/{tool}` with a JSON body.
 ## Use it in
 
 - **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.endzoneapi.com/mcp` as a remote MCP server. Step-by-step for each: https://endzoneapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
-- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/endzoneapi-mcp`
-- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Gemini CLI:** `gemini extensions install https://github.com/sports-data-hq/endzoneapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/sports-data-hq/sportsdatahq-cursor-plugins)
 - **Google Sheets:** `=SDHQ("endzoneapi","list_teams")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 - **REST:** `POST https://mcp.endzoneapi.com/v1/<tool>` with an `x-api-key` header: https://endzoneapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
@@ -169,7 +169,7 @@ Coverage by season, read live from the database: https://endzoneapi.com/data/his
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, kept while your account is open. https://endzoneapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000), Business $299/mo (300,000). Wallet top-ups from $5, kept while your account is open. https://endzoneapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp
 
 ## Attribution
 
@@ -193,7 +193,7 @@ Install `nfl-data`, which bundles the football skills and the EndzoneAPI MCP ser
 
 ```bash
 export ENDZONEAPI_API_KEY=your_key
-gemini extensions install https://github.com/noahowsh/endzoneapi-mcp
+gemini extensions install https://github.com/sports-data-hq/endzoneapi-mcp
 ```
 
 The extension adds the EndzoneAPI MCP server (https://mcp.endzoneapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://endzoneapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=endzoneapi-mcp.
