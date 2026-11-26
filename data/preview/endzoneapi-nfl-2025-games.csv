@@ -1,0 +1,101 @@
+league,season,game_type,week,date,away_team,home_team,away_score,home_score,overtime,away_qb_name,home_qb_name,away_coach,home_coach,stadium,roof,surface
+nfl,2025,REG,1,2025-09-04,DAL,PHI,20,24,0,Dak Prescott,Jalen Hurts,Brian Schottenheimer,Nick Sirianni,Lincoln Financial Field,outdoors,grass
+nfl,2025,REG,1,2025-09-05,KC,LAC,21,27,0,Patrick Mahomes,Justin Herbert,Andy Reid,Jim Harbaugh,SoFi Stadium,dome,
+nfl,2025,REG,1,2025-09-07,ARI,NO,20,13,0,Kyler Murray,Spencer Rattler,Jonathan Gannon,Kellen Moore,Mercedes-Benz Superdome,dome,sportturf
+nfl,2025,REG,1,2025-09-07,BAL,BUF,40,41,0,Lamar Jackson,Josh Allen,John Harbaugh,Sean McDermott,New Era Field,outdoors,a_turf
+nfl,2025,REG,1,2025-09-07,CAR,JAX,10,26,0,Bryce Young,Trevor Lawrence,Dave Canales,Liam Coen,TIAA Bank Stadium,outdoors,grass
+nfl,2025,REG,1,2025-09-07,CIN,CLE,17,16,0,Joe Burrow,Joe Flacco,Zac Taylor,Kevin Stefanski,FirstEnergy Stadium,outdoors,grass
+nfl,2025,REG,1,2025-09-07,DET,GB,13,27,0,Jared Goff,Jordan Love,Dan Campbell,Matt LaFleur,Lambeau Field,outdoors,grass
+nfl,2025,REG,1,2025-09-07,HOU,LA,9,14,0,C.J. Stroud,Matthew Stafford,DeMeco Ryans,Sean McVay,SoFi Stadium,dome,matrixturf
+nfl,2025,REG,1,2025-09-07,LV,NE,20,13,0,Geno Smith,Drake Maye,Pete Carroll,Mike Vrabel,Gillette Stadium,outdoors,fieldturf
+nfl,2025,REG,1,2025-09-07,MIA,IND,8,33,0,Tua Tagovailoa,Daniel Jones,Mike McDaniel,Shane Steichen,Lucas Oil Stadium,closed,fieldturf
+nfl,2025,REG,1,2025-09-07,NYG,WAS,6,21,0,Russell Wilson,Jayden Daniels,Brian Daboll,Dan Quinn,FedExField,outdoors,grass
+nfl,2025,REG,1,2025-09-07,PIT,NYJ,34,32,0,Aaron Rodgers,Justin Fields,Mike Tomlin,Aaron Glenn,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,1,2025-09-07,SF,SEA,17,13,0,Brock Purdy,Sam Darnold,Kyle Shanahan,Mike Macdonald,Lumen Field,outdoors,fieldturf
+nfl,2025,REG,1,2025-09-07,TB,ATL,23,20,0,Baker Mayfield,Michael Penix,Todd Bowles,Raheem Morris,Mercedes-Benz Stadium,closed,fieldturf
+nfl,2025,REG,1,2025-09-07,TEN,DEN,12,20,0,Cam Ward,Bo Nix,Brian Callahan,Sean Payton,Empower Field at Mile High,outdoors,grass
+nfl,2025,REG,1,2025-09-08,MIN,CHI,27,24,0,J.J. McCarthy,Caleb Williams,Kevin O'Connell,Ben Johnson,Soldier Field,outdoors,grass
+nfl,2025,REG,2,2025-09-11,WAS,GB,18,27,0,Jayden Daniels,Jordan Love,Dan Quinn,Matt LaFleur,Lambeau Field,outdoors,grass
+nfl,2025,REG,2,2025-09-14,ATL,MIN,22,6,0,Michael Penix,J.J. McCarthy,Raheem Morris,Kevin O'Connell,U.S. Bank Stadium,dome,sportturf
+nfl,2025,REG,2,2025-09-14,BUF,NYJ,30,10,0,Josh Allen,Justin Fields,Sean McDermott,Aaron Glenn,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,2,2025-09-14,CAR,ARI,22,27,0,Bryce Young,Kyler Murray,Dave Canales,Jonathan Gannon,State Farm Stadium,closed,grass
+nfl,2025,REG,2,2025-09-14,CHI,DET,21,52,0,Caleb Williams,Jared Goff,Ben Johnson,Dan Campbell,Ford Field,dome,fieldturf
+nfl,2025,REG,2,2025-09-14,CLE,BAL,17,41,0,Joe Flacco,Lamar Jackson,Kevin Stefanski,John Harbaugh,M&T Bank Stadium,outdoors,grass
+nfl,2025,REG,2,2025-09-14,DEN,IND,28,29,0,Bo Nix,Daniel Jones,Sean Payton,Shane Steichen,Lucas Oil Stadium,closed,fieldturf
+nfl,2025,REG,2,2025-09-14,JAX,CIN,27,31,0,Trevor Lawrence,Joe Burrow,Liam Coen,Zac Taylor,Paycor Stadium,outdoors,fieldturf
+nfl,2025,REG,2,2025-09-14,LA,TEN,33,19,0,Matthew Stafford,Cam Ward,Sean McVay,Brian Callahan,Nissan Stadium,outdoors,grass
+nfl,2025,REG,2,2025-09-14,NE,MIA,33,27,0,Drake Maye,Tua Tagovailoa,Mike Vrabel,Mike McDaniel,Hard Rock Stadium,outdoors,grass
+nfl,2025,REG,2,2025-09-14,NYG,DAL,37,40,1,Russell Wilson,Dak Prescott,Brian Daboll,Brian Schottenheimer,AT&T Stadium,closed,matrixturf
+nfl,2025,REG,2,2025-09-14,PHI,KC,20,17,0,Jalen Hurts,Patrick Mahomes,Nick Sirianni,Andy Reid,GEHA Field at Arrowhead Stadium,outdoors,grass
+nfl,2025,REG,2,2025-09-14,SEA,PIT,31,17,0,Sam Darnold,Aaron Rodgers,Mike Macdonald,Mike Tomlin,Acrisure Stadium,outdoors,grass
+nfl,2025,REG,2,2025-09-14,SF,NO,26,21,0,Mac Jones,Spencer Rattler,Kyle Shanahan,Kellen Moore,Mercedes-Benz Superdome,dome,sportturf
+nfl,2025,REG,2,2025-09-15,LAC,LV,20,9,0,Justin Herbert,Geno Smith,Jim Harbaugh,Pete Carroll,Allegiant Stadium,dome,grass
+nfl,2025,REG,2,2025-09-15,TB,HOU,20,19,0,Baker Mayfield,C.J. Stroud,Todd Bowles,DeMeco Ryans,NRG Stadium,closed,astroturf
+nfl,2025,REG,3,2025-09-18,MIA,BUF,21,31,0,Tua Tagovailoa,Josh Allen,Mike McDaniel,Sean McDermott,New Era Field,outdoors,a_turf
+nfl,2025,REG,3,2025-09-21,ARI,SF,15,16,0,Kyler Murray,Mac Jones,Jonathan Gannon,Kyle Shanahan,Levi's Stadium,outdoors,grass
+nfl,2025,REG,3,2025-09-21,ATL,CAR,0,30,0,Michael Penix,Bryce Young,Raheem Morris,Dave Canales,Bank of America Stadium,outdoors,grass
+nfl,2025,REG,3,2025-09-21,CIN,MIN,10,48,0,Jake Browning,Carson Wentz,Zac Taylor,Kevin O'Connell,U.S. Bank Stadium,dome,sportturf
+nfl,2025,REG,3,2025-09-21,DAL,CHI,14,31,0,Dak Prescott,Caleb Williams,Brian Schottenheimer,Ben Johnson,Soldier Field,outdoors,grass
+nfl,2025,REG,3,2025-09-21,DEN,LAC,20,23,0,Bo Nix,Justin Herbert,Sean Payton,Jim Harbaugh,SoFi Stadium,dome,matrixturf
+nfl,2025,REG,3,2025-09-21,GB,CLE,10,13,0,Jordan Love,Joe Flacco,Matt LaFleur,Kevin Stefanski,FirstEnergy Stadium,outdoors,grass
+nfl,2025,REG,3,2025-09-21,HOU,JAX,10,17,0,C.J. Stroud,Trevor Lawrence,DeMeco Ryans,Liam Coen,TIAA Bank Stadium,outdoors,grass
+nfl,2025,REG,3,2025-09-21,IND,TEN,41,20,0,Daniel Jones,Cam Ward,Shane Steichen,Brian Callahan,Nissan Stadium,outdoors,grass
+nfl,2025,REG,3,2025-09-21,KC,NYG,22,9,0,Patrick Mahomes,Russell Wilson,Andy Reid,Brian Daboll,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,3,2025-09-21,LA,PHI,26,33,0,Matthew Stafford,Jalen Hurts,Sean McVay,Nick Sirianni,Lincoln Financial Field,outdoors,grass
+nfl,2025,REG,3,2025-09-21,LV,WAS,24,41,0,Geno Smith,Marcus Mariota,Pete Carroll,Dan Quinn,FedExField,outdoors,grass
+nfl,2025,REG,3,2025-09-21,NO,SEA,13,44,0,Spencer Rattler,Sam Darnold,Kellen Moore,Mike Macdonald,Lumen Field,outdoors,fieldturf
+nfl,2025,REG,3,2025-09-21,NYJ,TB,27,29,0,Tyrod Taylor,Baker Mayfield,Aaron Glenn,Todd Bowles,Raymond James Stadium,outdoors,grass
+nfl,2025,REG,3,2025-09-21,PIT,NE,21,14,0,Aaron Rodgers,Drake Maye,Mike Tomlin,Mike Vrabel,Gillette Stadium,outdoors,fieldturf
+nfl,2025,REG,3,2025-09-22,DET,BAL,38,30,0,Jared Goff,Lamar Jackson,Dan Campbell,John Harbaugh,M&T Bank Stadium,outdoors,grass
+nfl,2025,REG,4,2025-09-25,SEA,ARI,23,20,0,Sam Darnold,Kyler Murray,Mike Macdonald,Jonathan Gannon,State Farm Stadium,closed,grass
+nfl,2025,REG,4,2025-09-28,BAL,KC,20,37,0,Lamar Jackson,Patrick Mahomes,John Harbaugh,Andy Reid,GEHA Field at Arrowhead Stadium,outdoors,grass
+nfl,2025,REG,4,2025-09-28,CAR,NE,13,42,0,Bryce Young,Drake Maye,Dave Canales,Mike Vrabel,Gillette Stadium,outdoors,fieldturf
+nfl,2025,REG,4,2025-09-28,CHI,LV,25,24,0,Caleb Williams,Geno Smith,Ben Johnson,Pete Carroll,Allegiant Stadium,dome,grass
+nfl,2025,REG,4,2025-09-28,CLE,DET,10,34,0,Joe Flacco,Jared Goff,Kevin Stefanski,Dan Campbell,Ford Field,dome,fieldturf
+nfl,2025,REG,4,2025-09-28,GB,DAL,40,40,1,Jordan Love,Dak Prescott,Matt LaFleur,Brian Schottenheimer,AT&T Stadium,closed,matrixturf
+nfl,2025,REG,4,2025-09-28,IND,LA,20,27,0,Daniel Jones,Matthew Stafford,Shane Steichen,Sean McVay,SoFi Stadium,dome,matrixturf
+nfl,2025,REG,4,2025-09-28,JAX,SF,26,21,0,Trevor Lawrence,Brock Purdy,Liam Coen,Kyle Shanahan,Levi's Stadium,outdoors,grass
+nfl,2025,REG,4,2025-09-28,LAC,NYG,18,21,0,Justin Herbert,Jaxson Dart,Jim Harbaugh,Brian Daboll,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,4,2025-09-28,MIN,PIT,21,24,0,Carson Wentz,Aaron Rodgers,Kevin O'Connell,Mike Tomlin,Acrisure Stadium,outdoors,grass
+nfl,2025,REG,4,2025-09-28,NO,BUF,19,31,0,Spencer Rattler,Josh Allen,Kellen Moore,Sean McDermott,New Era Field,outdoors,a_turf
+nfl,2025,REG,4,2025-09-28,PHI,TB,31,25,0,Jalen Hurts,Baker Mayfield,Nick Sirianni,Todd Bowles,Raymond James Stadium,outdoors,grass
+nfl,2025,REG,4,2025-09-28,TEN,HOU,0,26,0,Cam Ward,C.J. Stroud,Brian Callahan,DeMeco Ryans,NRG Stadium,closed,astroturf
+nfl,2025,REG,4,2025-09-28,WAS,ATL,27,34,0,Jayden Daniels,Michael Penix,Dan Quinn,Raheem Morris,Mercedes-Benz Stadium,closed,fieldturf
+nfl,2025,REG,4,2025-09-29,CIN,DEN,3,28,0,Jake Browning,Bo Nix,Zac Taylor,Sean Payton,Empower Field at Mile High,outdoors,grass
+nfl,2025,REG,4,2025-09-29,NYJ,MIA,21,27,0,Justin Fields,Tua Tagovailoa,Aaron Glenn,Mike McDaniel,Hard Rock Stadium,outdoors,grass
+nfl,2025,REG,5,2025-10-02,SF,LA,26,23,1,Mac Jones,Matthew Stafford,Kyle Shanahan,Sean McVay,SoFi Stadium,dome,matrixturf
+nfl,2025,REG,5,2025-10-05,DAL,NYJ,37,22,0,Dak Prescott,Justin Fields,Brian Schottenheimer,Aaron Glenn,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,5,2025-10-05,DEN,PHI,21,17,0,Bo Nix,Jalen Hurts,Sean Payton,Nick Sirianni,Lincoln Financial Field,outdoors,grass
+nfl,2025,REG,5,2025-10-05,DET,CIN,37,24,0,Jared Goff,Jake Browning,Dan Campbell,Zac Taylor,Paycor Stadium,outdoors,fieldturf
+nfl,2025,REG,5,2025-10-05,HOU,BAL,44,10,0,C.J. Stroud,Cooper Rush,DeMeco Ryans,John Harbaugh,M&T Bank Stadium,outdoors,grass
+nfl,2025,REG,5,2025-10-05,LV,IND,6,40,0,Geno Smith,Daniel Jones,Pete Carroll,Shane Steichen,Lucas Oil Stadium,closed,fieldturf
+nfl,2025,REG,5,2025-10-05,MIA,CAR,24,27,0,Tua Tagovailoa,Bryce Young,Mike McDaniel,Dave Canales,Bank of America Stadium,outdoors,grass
+nfl,2025,REG,5,2025-10-05,MIN,CLE,21,17,0,Carson Wentz,Dillon Gabriel,Kevin O'Connell,Kevin Stefanski,FirstEnergy Stadium,outdoors,grass
+nfl,2025,REG,5,2025-10-05,NE,BUF,23,20,0,Drake Maye,Josh Allen,Mike Vrabel,Sean McDermott,New Era Field,outdoors,a_turf
+nfl,2025,REG,5,2025-10-05,NYG,NO,14,26,0,Jaxson Dart,Spencer Rattler,Brian Daboll,Kellen Moore,Mercedes-Benz Superdome,dome,sportturf
+nfl,2025,REG,5,2025-10-05,TB,SEA,38,35,0,Baker Mayfield,Sam Darnold,Todd Bowles,Mike Macdonald,Lumen Field,outdoors,fieldturf
+nfl,2025,REG,5,2025-10-05,TEN,ARI,22,21,0,Cam Ward,Kyler Murray,Brian Callahan,Jonathan Gannon,State Farm Stadium,closed,grass
+nfl,2025,REG,5,2025-10-05,WAS,LAC,27,10,0,Jayden Daniels,Justin Herbert,Dan Quinn,Jim Harbaugh,SoFi Stadium,dome,matrixturf
+nfl,2025,REG,5,2025-10-06,KC,JAX,28,31,0,Patrick Mahomes,Trevor Lawrence,Andy Reid,Liam Coen,TIAA Bank Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-09,PHI,NYG,17,34,0,Jalen Hurts,Jaxson Dart,Nick Sirianni,Brian Daboll,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,6,2025-10-12,ARI,IND,27,31,0,Jacoby Brissett,Daniel Jones,Jonathan Gannon,Shane Steichen,Lucas Oil Stadium,closed,fieldturf
+nfl,2025,REG,6,2025-10-12,CIN,GB,18,27,0,Joe Flacco,Jordan Love,Zac Taylor,Matt LaFleur,Lambeau Field,outdoors,grass
+nfl,2025,REG,6,2025-10-12,CLE,PIT,9,23,0,Dillon Gabriel,Aaron Rodgers,Kevin Stefanski,Mike Tomlin,Acrisure Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,DAL,CAR,27,30,0,Dak Prescott,Bryce Young,Brian Schottenheimer,Dave Canales,Bank of America Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,DEN,NYJ,13,11,0,Bo Nix,Justin Fields,Sean Payton,Aaron Glenn,MetLife Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,DET,KC,17,30,0,Jared Goff,Patrick Mahomes,Dan Campbell,Andy Reid,GEHA Field at Arrowhead Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,LAC,MIA,29,27,0,Justin Herbert,Tua Tagovailoa,Jim Harbaugh,Mike McDaniel,Hard Rock Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,LA,BAL,17,3,0,Matthew Stafford,Cooper Rush,Sean McVay,John Harbaugh,M&T Bank Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,NE,NO,25,19,0,Drake Maye,Spencer Rattler,Mike Vrabel,Kellen Moore,Mercedes-Benz Superdome,dome,sportturf
+nfl,2025,REG,6,2025-10-12,SEA,JAX,20,12,0,Sam Darnold,Trevor Lawrence,Mike Macdonald,Liam Coen,TIAA Bank Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,SF,TB,19,30,0,Mac Jones,Baker Mayfield,Kyle Shanahan,Todd Bowles,Raymond James Stadium,outdoors,grass
+nfl,2025,REG,6,2025-10-12,TEN,LV,10,20,0,Cam Ward,Geno Smith,Brian Callahan,Pete Carroll,Allegiant Stadium,dome,grass
+nfl,2025,REG,6,2025-10-13,BUF,ATL,14,24,0,Josh Allen,Michael Penix,Sean McDermott,Raheem Morris,Mercedes-Benz Stadium,closed,fieldturf
+nfl,2025,REG,6,2025-10-13,CHI,WAS,25,24,0,Caleb Williams,Jayden Daniels,Ben Johnson,Dan Quinn,FedExField,outdoors,grass
+nfl,2025,REG,7,2025-10-16,PIT,CIN,31,33,0,Aaron Rodgers,Joe Flacco,Mike Tomlin,Zac Taylor,Paycor Stadium,outdoors,fieldturf
+nfl,2025,REG,7,2025-10-19,ATL,SF,10,20,0,Michael Penix,Mac Jones,Raheem Morris,Kyle Shanahan,Levi's Stadium,outdoors,grass
+nfl,2025,REG,7,2025-10-19,CAR,NYJ,13,6,0,Bryce Young,Justin Fields,Dave Canales,Aaron Glenn,MetLife Stadium,outdoors,fieldturf
+nfl,2025,REG,7,2025-10-19,GB,ARI,27,23,0,Jordan Love,Jacoby Brissett,Matt LaFleur,Jonathan Gannon,State Farm Stadium,closed,grass
+nfl,2025,REG,7,2025-10-19,IND,LAC,38,24,0,Daniel Jones,Justin Herbert,Shane Steichen,Jim Harbaugh,SoFi Stadium,dome,matrixturf
+nfl,2025,REG,7,2025-10-19,LA,JAX,35,7,0,Matthew Stafford,Trevor Lawrence,Sean McVay,Liam Coen,TIAA Bank Stadium,outdoors,grass
+nfl,2025,REG,7,2025-10-19,LV,KC,0,31,0,Geno Smith,Patrick Mahomes,Pete Carroll,Andy Reid,GEHA Field at Arrowhead Stadium,outdoors,grass
