@@ -35,12 +35,22 @@ What to watch: 2-4 bullets tied to the numbers above (e.g. pass rush vs a backup
 Data: get_schedule, get_game_detail, get_standings, get_injuries, get_game_probabilities | season <yyyy>, week <n>
 ```
 
+## When there's no game
+
+If the game the user names isn't scheduled (off-season, not booked, already played), don't stop to ask. Do the most useful real version and say which one in the first line:
+1. The next scheduled meeting of those two sides, if `get_schedule` (filtered by team) has one.
+2. Otherwise their most recent meeting and where each side finished last season, from the last completed season's data.
+3. For a matchup that can't happen soon, the ratings matchup labelled as hypothetical.
+Answer first; offer the alternative in one closing line, never as a question before answering.
+
 ## Rules
 - Every number names its tool (the template's Data line, plus inline where it could be doubted).
 - State sample size for rates ("EPA/play over 11 games"). Early-season (weeks 1-4) efficiency is noisy; say so.
 - EPA excludes penalties, kneels and spikes; it will not match official box-score yards.
 - Odds are information about the market. Never suggest a side, a stake or a bet.
 - If a tool returns nothing (game not scheduled yet, no line posted), say what is missing instead of estimating it.
+- Complete before writing: every step in the default path is called for both sides before the preview is written. If a call fails or returns nothing, say which section is missing rather than writing around it.
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
 
 ## Example prompts

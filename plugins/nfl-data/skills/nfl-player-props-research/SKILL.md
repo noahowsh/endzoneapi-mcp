@@ -41,8 +41,21 @@ Context: snaps/targets or injury note if relevant
 Data: search_players, get_player_props, get_prop_probabilities, get_prop_history | season <yyyy>
 ```
 
+## When no line is posted
+
+Off-season, or the book hasn't posted yet: don't stop to ask. Give the player's record against his line over his last completed season (`get_prop_history` with that season's dates), his current form from game logs, and say lines aren't up yet. Never invent a line.
+
+## The analyst layer
+
+Go one step past the raw hit rate:
+- **Across books:** the highest and lowest line or price on offer and the spread between them.
+- **Over time:** the hit rate this season and last season separately, each with n.
+- **Context split:** the same rate in the games that look like tonight's (minutes or workload for the player, home/away, favourite/underdog).
+State each with its sample size; skip a split with fewer than 8 games and say why.
+
 ## Rules
 - Odds are information only: no picks, no "lean", no "value", no stake or payout math, no sportsbook links.
 - Name the tool behind every number and the sample size behind every rate.
 - If a market has no line for this game yet, say so; do not substitute another market.
+- Sequences (last 5, recent form, a run of results) are quoted in the order the tool returns them, with dates; never retell them from memory. Lists in the answer must match the tool rows.
 - Out of credits: if a call is refused for credits, pass on the API's message as it comes (it says when free credits refill and how to add more), and stop; don't retry or switch tools to get around it.
