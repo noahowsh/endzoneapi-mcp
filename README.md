@@ -1,5 +1,7 @@
 # EndzoneAPI MCP server
 
+[![EndzoneAPI MCP connector](https://glama.ai/mcp/connectors/io.github.noahowsh/endzoneapi/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.noahowsh/endzoneapi)
+
 
 
 **The football data API.** Play-by-play with EPA and win probability, player and team stats, schedules, injuries, depth charts and closing lines for every NFL game since 1999. REST API and MCP server. 500 free credits every month, no card.
