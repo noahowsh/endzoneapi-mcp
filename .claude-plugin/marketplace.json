@@ -6,20 +6,20 @@
   },
   "metadata": {
     "description": "Claude skills for nine sports data APIs: hockey, football, basketball, baseball, soccer, tennis, golf, UFC and cricket.",
-    "version": "2.2.4"
+    "version": "2.2.5"
   },
   "plugins": [
     {
       "name": "sports-analytics-core",
       "source": "./plugins/sports-analytics-core",
       "description": "Sport-agnostic skills: model building, feature engineering, backtesting, walk-forward validation, calibration, Elo, visualization, data pipelines, and comparing a model with the market as information.",
-      "version": "2.2.4"
+      "version": "2.2.5"
     },
     {
       "name": "nfl-data",
       "source": "./plugins/nfl-data",
       "description": "Football analysis skills on EndzoneAPI: game previews, player and team research, and the community's standard metrics, with every number pulled live from the EndzoneAPI MCP server.",
-      "version": "2.2.4"
+      "version": "2.2.5"
     }
   ]
 }
